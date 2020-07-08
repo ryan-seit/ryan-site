@@ -1,8 +1,13 @@
 import React from "react";
-import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./containers/Layout/Layout";
 
 function App() {
-	return <div className='App'></div>;
+	return (
+		<div className='App'>
+			<Layout />
+		</div>
+	);
 }
 
 export default App;
