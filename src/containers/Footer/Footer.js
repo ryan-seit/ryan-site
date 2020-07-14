@@ -9,25 +9,29 @@ import githubCircle from "../../assets/github-icon-circle.svg";
 
 const Footer = props => {
 	return (
-		<div className={classes.Footer}>
-			<Logo />
-			<div className={classes.Line}></div>
-			<span>
-				<a href={"mailto:ryan@ryanseit.com"}>
-					<img src={emailCircle} alt='email' />
-				</a>
-				<a href='https://www.linkedin.com/in/ryan-seit/'>
-					<img src={linkedinCircle} alt='linkedin' />
-				</a>
-				<a href='https://medium.com/@ryan_49675'>
-					<img src={mediumCircle} alt='medium' />
-				</a>
-				<a href='https://github.com/ryan-seit'>
-					<img src={githubCircle} alt='github' />
-				</a>
-			</span>
+		<div className={classes.Wrapper}>
+			<div className={classes.Footer}>
+				<div className={classes.Logo}>
+					<Logo />
+				</div>
+				<div className={classes.Line}></div>
+				<span>
+					<a href={"mailto:ryan@ryanseit.com"}>
+						<img src={emailCircle} alt='email' />
+					</a>
+					<a href='https://www.linkedin.com/in/ryan-seit/'>
+						<img src={linkedinCircle} alt='linkedin' />
+					</a>
+					<a href='https://medium.com/@ryan_49675'>
+						<img src={mediumCircle} alt='medium' />
+					</a>
+					<a href='https://github.com/ryan-seit'>
+						<img src={githubCircle} alt='github' />
+					</a>
+				</span>
 
-			<p>© Ryan Seit 2020</p>
+				<p>© Ryan Seit 2020</p>
+			</div>
 		</div>
 	);
 };
