@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 import classes from "./Navigation.module.css";
 // import NavigationItems from "./NavigationItems/NavigationItems";
@@ -12,18 +13,33 @@ const navigation = props => {
 		<div className={classes.Navigation}>
 			<Logo />
 			{/* <NavigationItems /> */}
-			<div className={classes.About}>ABOUT</div>
-			<div className={classes.Technology}>TECHNOLOGY</div>
-			<div className={classes.Music}>MUSIC</div>
-			<div className={classes.Resume}>RESUME</div>
-			<div className={classes.Contact}>CONTACT</div>
+			<NavLink to='/about'>
+				<div className={classes.About}>ABOUT</div>
+			</NavLink>
+			<NavLink to='/technology'>
+				<div className={classes.Technology}>TECHNOLOGY</div>
+			</NavLink>
+			<NavLink to='/music'>
+				<div className={classes.Music}>MUSIC</div>
+			</NavLink>
+			<NavLink to='/resume'>
+				<div className={classes.Resume}>RESUME</div>
+			</NavLink>
+			<NavLink to='/contact'>
+				<div className={classes.Contact}>CONTACT</div>
+			</NavLink>
+
 			<div className={classes.External}>
-				<div className={classes.LinkedIn}>
-					<img src={linkedin} alt='linkedin' />
-				</div>
-				<div className={classes.Github}>
-					<img src={github} alt='github' />
-				</div>
+				<NavLink to='https://www.linkedin.com/in/ryan-seit/'>
+					<div className={classes.LinkedIn}>
+						<img src={linkedin} alt='linkedin' />
+					</div>
+				</NavLink>
+				<NavLink to='https://github.com/ryan-seit'>
+					<div className={classes.Github}>
+						<img src={github} alt='github' />
+					</div>
+				</NavLink>
 			</div>
 		</div>
 	);

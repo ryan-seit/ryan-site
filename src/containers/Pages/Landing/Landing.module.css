@@ -1,12 +1,111 @@
-.Landing {
+.Wrapper {
+  margin: auto;
   width: 100%;
-  height: 1024px;
+  height: 1062px;
   text-align: center;
   background: #F6F6F6;
+  /* display: grid; */
+  /* grid-template-rows: repeat(8, auto); */
+  /* grid-template-columns: repeat(24, auto); */
 }
 
-.Landing img {
-  /* width: 80%; */
-  /* text-align: center; */
-  bottom: 0px;
+.Landing {}
+
+.Logo {
+  grid-area: logo;
+  width: 294px;
+  height: 94px;
+  margin: auto;
+  padding-top: 7%;
+}
+
+.crashL {
+  grid-area: crashL;
+  z-index: 1;
+  position: absolute;
+  left: 12.85%;
+  right: 62.5%;
+  bottom: 0%;
+}
+
+.crashL:hover {
+  bottom: -1.5%;
+}
+
+.crashR {
+  grid-area: crashR;
+  z-index: 1;
+  position: absolute;
+  left: 67.01%;
+  right: 4.1%;
+  bottom: 0%;
+}
+
+.crashR:hover {
+  bottom: -1.5%;
+}
+
+.hihat {
+  grid-area: hihat;
+  z-index: 3;
+  position: absolute;
+  left: 4.51%;
+  right: 73.39%;
+  bottom: 0%;
+}
+
+.hihat:hover {
+  bottom: -1.5%;
+}
+
+.ride {
+  grid-area: ride;
+  z-index: 2;
+  position: absolute;
+  left: 46.04%;
+  right: 21.07%;
+  bottom: 0%;
+}
+
+.ride:hover {
+  bottom: -1.5%;
+}
+
+.tom {
+  grid-area: tom;
+  z-index: 2;
+  position: absolute;
+  left: 33.68%;
+  right: 51.28%;
+  bottom: 0%;
+}
+
+.tom:hover {
+  bottom: -1.5%;
+}
+
+.snare {
+  grid-area: snare;
+  z-index: 4;
+  position: absolute;
+  left: 29.51%;
+  right: 48.39%;
+  bottom: 0%;
+}
+
+.snare:hover {
+  bottom: -1.5%;
+}
+
+.floorTom {
+  grid-area: floorTom;
+  z-index: 3;
+  position: absolute;
+  left: 61.46%;
+  right: 9.09%;
+  bottom: 0%;
+}
+
+.floorTom:hover {
+  bottom: -1.5%;
 }

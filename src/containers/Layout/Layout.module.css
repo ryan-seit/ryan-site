@@ -1,4 +1,5 @@
 .Layout {
   display: grid;
-  grid-template-rows: 60px [navigation] auto [content] 400px [footer];
+  background: #F6F6F6;
+  /* grid-template-rows: 60px [navigation] auto [content] 400px [footer]; */
 }

@@ -1,16 +1,16 @@
-<svg width="1373" height="768" viewBox="0 0 1373 768" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M131.702 51.5869L486.947 74.6446V768.33H131.702V51.5869Z" fill="#DBE0D9"/>
-<ellipse cx="309.469" cy="62.6868" rx="178.209" ry="50.4193" transform="rotate(3.98656 309.469 62.6868)" fill="#FAEACB"/>
-<rect x="398.625" y="270.44" width="216.508" height="497.89" fill="#DAE6F1"/>
-<ellipse cx="506.879" cy="270.049" rx="108.254" ry="44.1614" fill="white"/>
-<rect x="0.782227" y="310.301" width="317.337" height="458.028" fill="#CADBE2"/>
-<ellipse cx="159.059" cy="310.302" rx="159.059" ry="39.0809" fill="#FAEACB"/>
-<path d="M956.504 75.8166L1370.24 54.7129V768.33H956.504V75.8166Z" fill="#D1ECFB"/>
-<ellipse rx="207.242" ry="44.1727" transform="matrix(0.998491 -0.0549188 0.0630266 0.998012 1163.29 66.4085)" fill="#FAEACB"/>
-<path d="M638.19 242.691L1111.07 211.817V768.329H638.19V242.691Z" fill="#FBD0D0"/>
-<ellipse cx="874.455" cy="228.024" rx="236.83" ry="55.8856" transform="rotate(-3.47486 874.455 228.024)" fill="#FAEACB"/>
-<rect x="347.819" y="425.981" width="318.118" height="342.348" fill="#DDC6BA"/>
-<ellipse cx="506.878" cy="425.981" rx="159.059" ry="39.0809" fill="white"/>
-<rect x="857.917" y="425.981" width="424.083" height="342.348" fill="#C0C3D9"/>
-<ellipse cx="1069.96" cy="425.981" rx="212.041" ry="39.0809" fill="white"/>
+<svg width="1316" height="763" viewBox="0 0 1316 763" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M120 50H475V763H120V50Z" fill="#DBE0D9"/>
+<ellipse cx="297.5" cy="50.5" rx="177.5" ry="50.5" fill="#FAEACB"/>
+<rect x="420" y="299" width="216" height="464" fill="#DAE6F1"/>
+<ellipse cx="528.254" cy="300" rx="108.254" ry="39" fill="white"/>
+<rect x="1" y="300" width="317" height="463" fill="#CADBE2"/>
+<ellipse cx="159.059" cy="300.081" rx="159.059" ry="39.0809" fill="#FAEACB"/>
+<path d="M900 50H1315V763H900V50Z" fill="#D1ECFB"/>
+<ellipse rx="207.561" ry="50.5017" transform="matrix(1 0 0.00812186 0.999967 1107.97 50.5)" fill="#FAEACB"/>
+<path d="M661 186H1133V763H661V186Z" fill="#FBD0D0"/>
+<ellipse cx="896.83" cy="181.5" rx="236.83" ry="50.5" fill="#FAEACB"/>
+<rect x="360" y="436.113" width="318" height="326.887" fill="#DDC6BA"/>
+<ellipse cx="519.059" cy="436.113" rx="159.059" ry="44.1128" fill="white"/>
+<rect x="780" y="431" width="424" height="332" fill="#C0C3D9"/>
+<ellipse cx="992.041" cy="431" rx="212.041" ry="39" fill="white"/>
 </svg>

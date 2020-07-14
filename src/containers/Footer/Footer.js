@@ -1,7 +1,7 @@
 import React from "react";
 
 import classes from "./Footer.module.css";
-import Logo from "../Logo/Logo";
+import Logo from "../Logo/LogoWhite";
 import emailCircle from "../../assets/email-icon-circle.svg";
 import linkedinCircle from "../../assets/linkedin-icon-circle.svg";
 import mediumCircle from "../../assets/medium-icon-circle.svg";
