@@ -26,10 +26,11 @@
   left: 12.85%;
   right: 62.5%;
   bottom: 0%;
+  transition: .4s ease-in-out;
 }
 
 .crashL:hover {
-  bottom: -1.5%;
+  -webkit-transform: translate(0, 1.5em);
 }
 
 .crashR {
@@ -39,10 +40,11 @@
   left: 67.01%;
   right: 4.1%;
   bottom: 0%;
+  transition: .4s ease-in-out;
 }
 
 .crashR:hover {
-  bottom: -1.5%;
+  -webkit-transform: translate(0, 1.5em);
 }
 
 .hihat {
@@ -52,10 +54,11 @@
   left: 4.51%;
   right: 73.39%;
   bottom: 0%;
+  transition: .4s ease-in-out;
 }
 
 .hihat:hover {
-  bottom: -1.5%;
+  -webkit-transform: translate(0, 1.5em);
 }
 
 .ride {
@@ -65,10 +68,11 @@
   left: 46.04%;
   right: 21.07%;
   bottom: 0%;
+  transition: .4s ease-in-out;
 }
 
 .ride:hover {
-  bottom: -1.5%;
+  -webkit-transform: translate(0, 1.5em);
 }
 
 .tom {
@@ -78,10 +82,11 @@
   left: 33.68%;
   right: 51.28%;
   bottom: 0%;
+  transition: .4s ease-in-out;
 }
 
 .tom:hover {
-  bottom: -1.5%;
+  -webkit-transform: translate(0, 1.5em);
 }
 
 .snare {
@@ -91,10 +96,11 @@
   left: 29.51%;
   right: 48.39%;
   bottom: 0%;
+  transition: .4s ease-in-out;
 }
 
 .snare:hover {
-  bottom: -1.5%;
+  -webkit-transform: translate(0, 1.5em);
 }
 
 .floorTom {
@@ -104,8 +110,9 @@
   left: 61.46%;
   right: 9.09%;
   bottom: 0%;
+  transition: .4s ease-in-out;
 }
 
 .floorTom:hover {
-  bottom: -1.5%;
+  -webkit-transform: translate(0, 1.5em);
 }

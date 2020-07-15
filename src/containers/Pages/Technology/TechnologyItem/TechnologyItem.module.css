@@ -1,0 +1,50 @@
+.Technology {
+  /* border: 1px solid red; */
+  display: grid;
+  width: 36%;
+  margin: auto;
+  padding: 0 5%;
+}
+
+.Technology>img {
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.Details {
+  /* border: 1px solid red; */
+  margin: auto;
+  width: 70%;
+  display: grid;
+  margin-bottom: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .3fr .7fr;
+  grid-template-areas:
+    "title links"
+    "text text";
+}
+
+.Details>h2 {
+  /* border: 1px solid red; */
+  grid-area: title;
+}
+
+.Details>ul {
+  /* border: 1px solid red; */
+  grid-area: links;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.Details>ul>li {
+  /* border: 1px solid red; */
+  grid-area: link;
+  padding: 13px 8px;
+}
+
+.Details>p {
+  /* border: 1px solid red; */
+  grid-area: text;
+  text-align: justify;
+}

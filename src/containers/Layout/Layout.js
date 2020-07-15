@@ -3,7 +3,9 @@ import React from "react";
 import classes from "./Layout.module.css";
 import Navigation from "../Navigation/Navigation";
 import Landing from "../Pages/Landing/Landing";
+
 import Footer from "../Footer/Footer";
+import Technology from "../Pages/Technology/Technology";
 
 const RenderLanding = () => {
 	return (
@@ -18,7 +20,8 @@ const RenderLayout = props => {
 	return (
 		<div className={classes.Layout}>
 			<Navigation />
-			<Landing />
+			{/* <Landing /> */}
+			<Technology />
 			<Footer />
 		</div>
 	);

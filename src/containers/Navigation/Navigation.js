@@ -12,7 +12,6 @@ const navigation = props => {
 	return (
 		<div className={classes.Navigation}>
 			<Logo />
-			{/* <NavigationItems /> */}
 			<NavLink to='/about'>
 				<div className={classes.About}>ABOUT</div>
 			</NavLink>
@@ -30,16 +29,16 @@ const navigation = props => {
 			</NavLink>
 
 			<div className={classes.External}>
-				<NavLink to='https://www.linkedin.com/in/ryan-seit/'>
+				<a href='https://www.linkedin.com/in/ryan-seit/'>
 					<div className={classes.LinkedIn}>
 						<img src={linkedin} alt='linkedin' />
 					</div>
-				</NavLink>
-				<NavLink to='https://github.com/ryan-seit'>
+				</a>
+				<a href='https://github.com/ryan-seit'>
 					<div className={classes.Github}>
 						<img src={github} alt='github' />
 					</div>
-				</NavLink>
+				</a>
 			</div>
 		</div>
 	);

@@ -1,0 +1,13 @@
+.Wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.Pagination {
+  /* border: 1px solid red; */
+  text-align: center;
+  padding-bottom: 20px;
+}
