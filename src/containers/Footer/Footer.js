@@ -1,7 +1,7 @@
 import React from "react";
 
 import classes from "./Footer.module.css";
-import Logo from "../Logo/LogoWhite";
+import logoWhite from "../../assets/logo-white.svg";
 import emailCircle from "../../assets/email-icon-circle.svg";
 import linkedinCircle from "../../assets/linkedin-icon-circle.svg";
 import mediumCircle from "../../assets/medium-icon-circle.svg";
@@ -11,9 +11,7 @@ const Footer = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.Footer}>
-				<div className={classes.Logo}>
-					<Logo />
-				</div>
+				<img className={classes.Logo} src={logoWhite} alt='Ryan Seit Logo' />
 				<div className={classes.Line}></div>
 				<span>
 					<a href={"mailto:ryan@ryanseit.com"}>

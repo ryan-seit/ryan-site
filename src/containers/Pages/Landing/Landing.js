@@ -15,40 +15,24 @@ const Landing = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.Landing}>
-				<div className={classes.Logo}>
-					<img src={Logo} alt='Logo' />
-				</div>
+				<img className={classes.Logo} src={Logo} alt='Logo' />
 				<NavLink to='/resume'>
-					<div className={classes.crashL}>
-						<img src={crashL} alt='Resume' />
-					</div>
+					<img className={classes.crashL} src={crashL} alt='Resume' />
 				</NavLink>
 				<NavLink to='/music'>
-					<div className={classes.crashR}>
-						<img src={crashR} alt='Music' />
-					</div>
+					<img className={classes.crashR} src={crashR} alt='Music' />
 				</NavLink>
 				<NavLink to='/contact'>
-					<div className={classes.floorTom}>
-						<img src={floorTom} alt='Contact' />
-					</div>
+					<img className={classes.floorTom} src={floorTom} alt='Contact' />
 				</NavLink>
 				<NavLink to='/about'>
-					<div className={classes.hihat}>
-						<img src={hihat} alt='About' />
-					</div>
+					<img className={classes.hihat} src={hihat} alt='About' />
 				</NavLink>
 				<NavLink to='/technology'>
-					<div className={classes.ride}>
-						<img src={ride} alt='Technology' />
-					</div>
+					<img className={classes.ride} src={ride} alt='Technology' />
 				</NavLink>
-				<div className={classes.snare}>
-					<img src={snare} alt='none' />
-				</div>
-				<div className={classes.tom}>
-					<img src={tom} alt='none' />
-				</div>
+				<img className={classes.snare} src={snare} alt='none' />
+				<img className={classes.tom} src={tom} alt='none' />
 			</div>
 		</div>
 	);

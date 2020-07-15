@@ -1,11 +1,11 @@
 .Navigation {
   display: grid;
+  background: white;
   /* width: 100%; */
-  margin: 0 90px;
-  grid-template-columns: repeat(9, auto);
-  grid-template-rows: 60px;
+  grid-template-columns: .2fr repeat(10, auto) .2fr;
+  /* grid-template-rows: 60px; */
   grid-template-areas:
-    "Logo . . About Technology Music Resume Contact External";
+    ". Logo . . . About Technology Music Resume Contact . External";
   align-items: center;
 }
 
@@ -26,6 +26,8 @@ a:hover {
 }
 
 .Logo {
+  /* border: 1px solid red; */
+  height: 30px;
   grid-area: Logo;
 }
 

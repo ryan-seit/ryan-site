@@ -6,8 +6,8 @@ const Technology = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<TechnologyItem />
-			<TechnologyItem />
-			<TechnologyItem />
+			{/* <TechnologyItem /> */}
+			{/* <TechnologyItem /> */}
 			<div className={classes.Pagination}>
 				<p>1 -- 2 -- 3 -- 4 -- 5</p>
 			</div>

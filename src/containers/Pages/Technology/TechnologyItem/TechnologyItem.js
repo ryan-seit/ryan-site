@@ -8,7 +8,7 @@ import Web from "../../../../assets/chrome-icon-circle.svg";
 
 const TechnologyItem = props => (
 	<div className={classes.Technology}>
-		<img src={projectImage} alt='Image' />
+		<img src={projectImage} alt='Placeholder' />
 		<div className={classes.Details}>
 			<h2>Project 1</h2>
 			<ul>

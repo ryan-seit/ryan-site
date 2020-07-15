@@ -2,16 +2,17 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import classes from "./Navigation.module.css";
-// import NavigationItems from "./NavigationItems/NavigationItems";
 import github from "../../assets/github-icon.svg";
 import linkedin from "../../assets/linkedin-icon.svg";
-import Logo from "../Logo/Logo";
+import logo from "../../assets/logo.svg";
 
 // Displays the Navigation Bar
 const navigation = props => {
 	return (
 		<div className={classes.Navigation}>
-			<Logo />
+			<NavLink to='/'>
+				<img className={classes.Logo} src={logo} alt='Ryan Seit Logo' />;
+			</NavLink>
 			<NavLink to='/about'>
 				<div className={classes.About}>ABOUT</div>
 			</NavLink>

@@ -14,10 +14,10 @@
 .Details {
   /* border: 1px solid red; */
   margin: auto;
-  width: 70%;
+  width: 75%;
   display: grid;
   margin-bottom: 30px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   grid-template-rows: .3fr .7fr;
   grid-template-areas:
     "title links"
@@ -31,16 +31,17 @@
 
 .Details>ul {
   /* border: 1px solid red; */
+  justify-items: right;
+  align-items: center;
   grid-area: links;
   display: flex;
   list-style-type: none;
-  padding-left: 0;
 }
 
 .Details>ul>li {
   /* border: 1px solid red; */
   grid-area: link;
-  padding: 13px 8px;
+  padding: 0 5px;
 }
 
 .Details>p {

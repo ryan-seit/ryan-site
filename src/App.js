@@ -6,19 +6,23 @@ import Technology from "./containers/Pages/Technology/Technology";
 import Music from "./containers/Pages/Music/Music";
 import About from "./containers/About/About";
 import Resume from "./containers/Resume/Resume";
+import Footer from "./containers/Footer/Footer";
 
 const App = () => {
 	return (
 		<div className='App'>
-			<Layout>
-				<Switch>
+			<Switch>
+				<Route path='/' exact component={Landing}>
+					<Landing />
+					<Footer />
+				</Route>
+				<Layout>
 					<Route path='/technology' component={Technology} />
 					<Route path='/music' component={Music} />
 					<Route path='/resume' component={Resume} />
 					<Route path='/about' component={About} />
-					<Route path='/' exact component={Landing} />
-				</Switch>
-			</Layout>
+				</Layout>
+			</Switch>
 		</div>
 	);
 };
