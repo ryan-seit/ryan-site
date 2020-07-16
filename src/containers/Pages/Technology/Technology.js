@@ -2,6 +2,9 @@ import React from "react";
 import classes from "./Technology.module.css";
 import TechnologyItem from "./TechnologyItem/TechnologyItem";
 
+// TODO: Add horizontal carousel layout
+// TODO: Add pagination
+
 const Technology = props => {
 	return (
 		<div className={classes.Wrapper}>

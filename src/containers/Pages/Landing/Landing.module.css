@@ -10,7 +10,8 @@
   /* grid-template-columns: repeat(24, auto); */
 }
 
-.Landing {}
+/* .Landing {} */
+/* TODO: Fix div positions from bottom to top */
 
 .Logo {
   grid-area: logo;
@@ -31,8 +32,15 @@
   transition: .4s ease-in-out;
 }
 
-.crashL:hover {
+.crashL:hover,
+.crashR:hover,
+.hihat:hover,
+.ride:hover,
+.tom:hover,
+.snare:hover,
+.floorTom:hover {
   -webkit-transform: translate(0, 1.5em);
+  transform: translate(0, 1.5em);
 }
 
 .crashR {
@@ -45,10 +53,6 @@
   transition: .4s ease-in-out;
 }
 
-.crashR:hover {
-  -webkit-transform: translate(0, 1.5em);
-}
-
 .hihat {
   grid-area: hihat;
   z-index: 3;
@@ -57,10 +61,6 @@
   right: 73.39%;
   bottom: 0%;
   transition: .4s ease-in-out;
-}
-
-.hihat:hover {
-  -webkit-transform: translate(0, 1.5em);
 }
 
 .ride {
@@ -73,10 +73,6 @@
   transition: .4s ease-in-out;
 }
 
-.ride:hover {
-  -webkit-transform: translate(0, 1.5em);
-}
-
 .tom {
   grid-area: tom;
   z-index: 2;
@@ -85,10 +81,6 @@
   right: 51.28%;
   bottom: 0%;
   transition: .4s ease-in-out;
-}
-
-.tom:hover {
-  -webkit-transform: translate(0, 1.5em);
 }
 
 .snare {
@@ -101,10 +93,6 @@
   transition: .4s ease-in-out;
 }
 
-.snare:hover {
-  -webkit-transform: translate(0, 1.5em);
-}
-
 .floorTom {
   grid-area: floorTom;
   z-index: 3;
@@ -113,8 +101,4 @@
   right: 9.09%;
   bottom: 0%;
   transition: .4s ease-in-out;
-}
-
-.floorTom:hover {
-  -webkit-transform: translate(0, 1.5em);
 }
