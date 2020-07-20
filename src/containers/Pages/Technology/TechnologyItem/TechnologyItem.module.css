@@ -1,20 +1,70 @@
 .Technology {
   /* border: 1px solid red; */
-  display: grid;
-  width: 36%;
   margin: auto;
+  width: 650px;
   padding: 0 5%;
 }
 
-.Technology>img {
+.Image {
   /* border: 1px solid red; */
   width: 100%;
+  /* padding: 5px; */
+  border-radius: 50%;
+  /* filter: blur(1px); */
+  /* -webkit-filter: blur(4px); */
+  z-index: 1;
+  position: relative;
+}
+
+.Image:hover {
+  /* filter: blur(0); */
+  /* -webkit-filter: blur(0); */
+}
+
+.Icons {
+  /* border: 1px solid red; */
+  /* background: gray; */
+  /* opacity: .5; */
+  /* margin-left: 50px; */
+  width: 630px;
+  height: 190px;
+  padding: 3px;
+  z-index: 2;
+  position: absolute;
+  top: 53%;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.Icons svg>circle {
+  fill: black;
+}
+
+.Icons>h3 {
+  /* border: 1px solid red; */
+  color: white;
+  position: relative;
+  text-align: center;
+  z-index: 3;
+}
+
+.Icons>ul {
+  /* border: 1px solid red; */
+  justify-content: center;
+  display: flex;
+  position: relative;
+  z-index: 3;
+  padding: 0;
+}
+
+.Icons>ul>li {
+  /* border: 1px solid red; */
 }
 
 .Details {
   /* border: 1px solid red; */
   margin: auto;
-  width: 75%;
+  width: 85%;
   display: grid;
   margin-bottom: 30px;
   grid-template-columns: 2fr 1fr;
@@ -29,16 +79,16 @@
   grid-area: title;
 }
 
-.Details>ul {
+ul {
   /* border: 1px solid red; */
-  justify-items: right;
+  /* justify-items: right; */
   align-items: center;
   grid-area: links;
   display: flex;
   list-style-type: none;
 }
 
-.Details>ul>li {
+li {
   /* border: 1px solid red; */
   grid-area: link;
   padding: 0 5px;
@@ -47,5 +97,7 @@
 .Details>p {
   /* border: 1px solid red; */
   grid-area: text;
+  letter-spacing: 0;
   text-align: justify;
+  line-height: 1.6;
 }
