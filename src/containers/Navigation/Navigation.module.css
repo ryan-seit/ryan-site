@@ -25,9 +25,10 @@ a:hover {
   text-transform: uppercase;
 }
 
-.Logo {
+.Logo>div>svg {
   /* border: 1px solid red; */
   height: 30px;
+  width: 96px;
   grid-area: Logo;
 }
 
@@ -60,7 +61,6 @@ a:hover {
 }
 
 .LinkedIn {
-  /* border: 1px solid red; */
   text-align: right;
   grid-area: LinkedIn
 }

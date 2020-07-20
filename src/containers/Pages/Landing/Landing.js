@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 // import allDrums from "../../../assets/Landing/allDrums.svg";
-import Logo from "../../../assets/logo.svg";
+import LOGO from "../../UI/Logo/LOGO";
 import crashL from "../../../assets/Landing/crashL.svg";
 import crashR from "../../../assets/Landing/crashR.svg";
 import floorTom from "../../../assets/Landing/floorTom.svg";
@@ -15,7 +15,7 @@ const Landing = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.Landing}>
-				<img className={classes.Logo} src={Logo} alt='Logo' />
+				<LOGO />
 				<NavLink to='/resume'>
 					<img className={classes.crashL} src={crashL} alt='Resume' />
 				</NavLink>

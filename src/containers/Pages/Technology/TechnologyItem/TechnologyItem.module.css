@@ -5,50 +5,51 @@
   padding: 0 5%;
 }
 
-.Image {
+.PortfolioImage {
   /* border: 1px solid red; */
-  width: 100%;
-  /* padding: 5px; */
-  border-radius: 50%;
-  /* filter: blur(1px); */
-  /* -webkit-filter: blur(4px); */
   z-index: 1;
   position: relative;
 }
 
-.Image:hover {
-  /* filter: blur(0); */
-  /* -webkit-filter: blur(0); */
+.PortfolioImage>img {
+  border-radius: 50%;
+  width: 100%;
+
 }
 
-.Icons {
+.PortfolioImage .PortfolioInfo {
   /* border: 1px solid red; */
-  /* background: gray; */
-  /* opacity: .5; */
-  /* margin-left: 50px; */
-  width: 630px;
-  height: 190px;
-  padding: 3px;
+  background: linear-gradient(0deg, rgba(2, 0, 36, 0) 60%, rgba(9, 9, 121, 0) 45%, rgb(0, 0, 0) 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
   z-index: 2;
   position: absolute;
-  top: 53%;
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
 }
 
-.Icons svg>circle {
-  fill: black;
-}
-
-.Icons>h3 {
+.PortfolioInfo ul>li>div>svg {
   /* border: 1px solid red; */
+  height: 45px;
+  width: 45px;
+}
+
+.PortfolioInfo svg>circle {
+  fill: none;
+}
+
+.PortfolioInfo svg>path {
+  fill: white;
+}
+
+.PortfolioInfo>h3 {
+  /* padding-top: 2%; */
   color: white;
   position: relative;
   text-align: center;
   z-index: 3;
 }
 
-.Icons>ul {
+.PortfolioInfo>ul {
   /* border: 1px solid red; */
   justify-content: center;
   display: flex;
@@ -57,7 +58,7 @@
   padding: 0;
 }
 
-.Icons>ul>li {
+.PortfolioInfo>ul>li {
   /* border: 1px solid red; */
 }
 
@@ -68,7 +69,7 @@
   display: grid;
   margin-bottom: 30px;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: .3fr .7fr;
+  grid-template-rows: 0.3fr 0.7fr;
   grid-template-areas:
     "title links"
     "text text";
@@ -81,7 +82,6 @@
 
 ul {
   /* border: 1px solid red; */
-  /* justify-items: right; */
   align-items: center;
   grid-area: links;
   display: flex;
@@ -91,7 +91,7 @@ ul {
 li {
   /* border: 1px solid red; */
   grid-area: link;
-  padding: 0 5px;
+  padding: 0 7px;
 }
 
 .Details>p {
@@ -100,4 +100,19 @@ li {
   letter-spacing: 0;
   text-align: justify;
   line-height: 1.6;
+}
+
+.Details svg>circle {
+  fill: #4B6B80;
+}
+
+.Details svg {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.Details svg:hover {
+  /* fill: #5e88a4; */
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
 }

@@ -1,9 +1,10 @@
 import React from "react";
 
-import github from "../../../assets/github-icon.svg";
-import linkedin from "../../../assets/linkedin-icon.svg";
 import classes from "./NavigationItems.module.css";
 import NavigationItem from "./NavigationItem/NavigationItem";
+
+import LINKEDINplain from "../../UI/Icons/LINKEDINplain";
+import GITHUBplain from "../../UI/Icons/GITHUBplain";
 
 // Contains each NavigationItem in the Navigation Bar
 const NavigationItems = props => {
@@ -15,10 +16,10 @@ const NavigationItems = props => {
 			<NavigationItem>RESUME</NavigationItem>
 			<NavigationItem>CONTACT</NavigationItem>
 			<NavigationItem>
-				<img src={linkedin} alt='linkedin' />
+				<LINKEDINplain />
 			</NavigationItem>
 			<NavigationItem>
-				<img src={github} alt='github' />
+				<GITHUBplain />
 			</NavigationItem>
 		</div>
 	);

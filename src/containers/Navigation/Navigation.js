@@ -2,16 +2,19 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import classes from "./Navigation.module.css";
-import github from "../../assets/github-icon.svg";
-import linkedin from "../../assets/linkedin-icon.svg";
-import logo from "../../assets/logo.svg";
+
+import LINKEDINplain from "../UI/Icons/LINKEDINplain";
+import LOGO from "../UI/Logo/LOGO";
+import GITHUBplain from "../UI/Icons/GITHUBplain";
 
 // Displays the Navigation Bar
 const navigation = props => {
 	return (
 		<div className={classes.Navigation}>
 			<NavLink to='/'>
-				<img className={classes.Logo} src={logo} alt='Ryan Seit Logo' />;
+				<div className={classes.Logo}>
+					<LOGO />
+				</div>
 			</NavLink>
 			<NavLink to='/about'>
 				<div className={classes.About}>ABOUT</div>
@@ -32,12 +35,12 @@ const navigation = props => {
 			<div className={classes.External}>
 				<a href='https://www.linkedin.com/in/ryan-seit/'>
 					<div className={classes.LinkedIn}>
-						<img src={linkedin} alt='linkedin' />
+						<LINKEDINplain />
 					</div>
 				</a>
 				<a href='https://github.com/ryan-seit'>
 					<div className={classes.Github}>
-						<img src={github} alt='github' />
+						<GITHUBplain />
 					</div>
 				</a>
 			</div>

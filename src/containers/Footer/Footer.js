@@ -1,32 +1,47 @@
 import React from "react";
 
 import classes from "./Footer.module.css";
-import logoWhite from "../../assets/logo-white.svg";
-import emailCircle from "../../assets/email-icon-circle.svg";
-import linkedinCircle from "../../assets/linkedin-icon-circle.svg";
-import mediumCircle from "../../assets/medium-icon-circle.svg";
-import githubCircle from "../../assets/github-icon-circle.svg";
+
+import LOGO from "../UI/Logo/LOGO";
+import LINKEDIN from "../UI/Icons/LINKEDIN";
+import MEDIUM from "../UI/Icons/MEDIUM";
+import GITHUB from "../UI/Icons/GITHUB";
+import EMAIL from "../UI/Icons/EMAIL";
 
 const Footer = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.Footer}>
-				<img className={classes.Logo} src={logoWhite} alt='Ryan Seit Logo' />
+				<div className={classes.Logo}>
+					<LOGO />
+				</div>
+
 				<div className={classes.Line}></div>
-				<span>
-					<a href={"mailto:ryan@ryanseit.com"}>
-						<img src={emailCircle} alt='email' />
-					</a>
-					<a href='https://www.linkedin.com/in/ryan-seit/'>
-						<img src={linkedinCircle} alt='linkedin' />
-					</a>
-					<a href='https://medium.com/@ryan_49675'>
-						<img src={mediumCircle} alt='medium' />
-					</a>
-					<a href='https://github.com/ryan-seit'>
-						<img src={githubCircle} alt='github' />
-					</a>
-				</span>
+
+				<div className={classes.Links}>
+					<ul>
+						<li>
+							<a href={"mailto:ryan@ryanseit.com"}>
+								<EMAIL />
+							</a>
+						</li>
+						<li>
+							<a href='https://www.linkedin.com/in/ryan-seit/'>
+								<LINKEDIN />
+							</a>
+						</li>
+						<li>
+							<a href='https://medium.com/@ryan_49675'>
+								<MEDIUM />
+							</a>
+						</li>
+						<li>
+							<a href='https://github.com/ryan-seit'>
+								<GITHUB />
+							</a>
+						</li>
+					</ul>
+				</div>
 
 				<p>© Ryan Seit 2020</p>
 			</div>
