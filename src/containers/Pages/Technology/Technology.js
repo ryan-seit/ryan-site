@@ -26,11 +26,12 @@ const projects = {
 const settings = {
 	centerMode: true,
 	infinite: true,
-	centerPadding: "60px",
-	// centerPadding: $(".slick").find(".single-slide-whatever-you-named-it").outerWidth() / 2,
-	slidesToShow: 1,
+	centerPadding: "60",
+	slidesToShow: 2.2,
 	speed: 500,
-	arrows: false,
+	// arrows: true,
+	// prevArrow: .prev,
+	// nextArrow: .next
 };
 
 const Technology = props => {

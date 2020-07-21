@@ -47,3 +47,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.slick-slide {
+  opacity: 0.3;
+}
+
+.slick-center {
+  opacity: 1;
+}
+
+.slick-slider>button {
+  /* border: 1px solid red; */
+  position: absolute;
+  top: 100%;
+  /* color: black; */
+}
+
+.slick-arrow {
+  /* border: 1px solid red; */
+  /* color: black; */
+}
+
+.slick-next {
+  right: 48%;
+  color: black;
+}
+
+.slick-prev {
+  left: 48%;
+  color: black;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #9D9D9D;
+  opacity: 1;
+  font-size: 30px;
+}
+
+.slick-next:before:hover,
+.slick-prev:before:hover {
+  color: #4B6B80;
+}
