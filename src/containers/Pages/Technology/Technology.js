@@ -18,6 +18,16 @@ const projects = {
 		desc:
 			"Designed as an homage to late 80's/early 90's drum machines, Drumblr is a digital drum machine users can play in the browser, with customizable tempo, rhythms, and presets.",
 	},
+	p2: {
+		img: "",
+		title: "",
+		links: {
+			github: "",
+			medium: "",
+			web: "",
+		},
+		desc: "",
+	},
 };
 
 // TODO: Add horizontal carousel layout

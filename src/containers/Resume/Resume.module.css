@@ -1,0 +1,17 @@
+.Wrapper {
+  /* border: 1px solid red; */
+  padding: 4% 7.5%;
+  margin: auto;
+}
+
+.Resume {
+  /* border: 1px solid red; */
+  text-align: center;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.Resume>img {
+  width: 90%;
+  /* height: 100%; */
+}
