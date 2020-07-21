@@ -13,7 +13,8 @@
 /* .Landing {} */
 /* TODO: Fix div positions from bottom to top */
 
-.Logo {
+.Logo>div {
+  /* border: 1px solid red; */
   grid-area: logo;
   width: 294px;
   height: 94px;
@@ -22,13 +23,81 @@
   opacity: 0.7;
 }
 
+.hihat {
+  grid-area: hihat;
+  z-index: 3;
+  position: absolute;
+  left: 10%;
+  right: 73.39%;
+  top: 57%;
+  /* bottom: 0%; */
+  transition: .4s ease-in-out;
+}
+
 .crashL {
   grid-area: crashL;
   z-index: 1;
   position: absolute;
-  left: 12.85%;
+  left: 20%;
   right: 62.5%;
-  bottom: 0%;
+  top: 29%;
+  /* bottom: 0%; */
+  transition: .4s ease-in-out;
+}
+
+.tom {
+  grid-area: tom;
+  z-index: 2;
+  position: absolute;
+  left: 37%;
+  right: 51.28%;
+  top: 57%;
+  /* bottom: 0%; */
+  transition: .4s ease-in-out;
+}
+
+.snare {
+  grid-area: snare;
+  z-index: 4;
+  position: absolute;
+  left: 34%;
+  right: 48.39%;
+  top: 70%;
+  /* bottom: 0%; */
+  transition: .4s ease-in-out;
+}
+
+.ride {
+  grid-area: ride;
+  z-index: 2;
+  position: absolute;
+  left: 46.04%;
+  right: 25%;
+  top: 43%;
+  /* bottom: 0%; */
+  transition: .4s ease-in-out;
+}
+
+
+.floorTom {
+  grid-area: floorTom;
+  z-index: 5;
+  position: absolute;
+  right: 18%;
+  left: 60%;
+  top: 70%;
+  /* bottom: 0%; */
+  transition: .4s ease-in-out;
+}
+
+.crashR {
+  grid-area: crashR;
+  z-index: 1;
+  position: absolute;
+  /* left: 70%; */
+  right: 10%;
+  top: 29%;
+  /* bottom: 0%; */
   transition: .4s ease-in-out;
 }
 
@@ -41,64 +110,4 @@
 .floorTom:hover {
   -webkit-transform: translate(0, 1.5em);
   transform: translate(0, 1.5em);
-}
-
-.crashR {
-  grid-area: crashR;
-  z-index: 1;
-  position: absolute;
-  left: 67.01%;
-  right: 4.1%;
-  bottom: 0%;
-  transition: .4s ease-in-out;
-}
-
-.hihat {
-  grid-area: hihat;
-  z-index: 3;
-  position: absolute;
-  left: 4.51%;
-  right: 73.39%;
-  bottom: 0%;
-  transition: .4s ease-in-out;
-}
-
-.ride {
-  grid-area: ride;
-  z-index: 2;
-  position: absolute;
-  left: 46.04%;
-  right: 21.07%;
-  bottom: 0%;
-  transition: .4s ease-in-out;
-}
-
-.tom {
-  grid-area: tom;
-  z-index: 2;
-  position: absolute;
-  left: 33.68%;
-  right: 51.28%;
-  bottom: 0%;
-  transition: .4s ease-in-out;
-}
-
-.snare {
-  grid-area: snare;
-  z-index: 4;
-  position: absolute;
-  left: 29.51%;
-  right: 48.39%;
-  bottom: 0%;
-  transition: .4s ease-in-out;
-}
-
-.floorTom {
-  grid-area: floorTom;
-  z-index: 3;
-  position: absolute;
-  left: 61.46%;
-  right: 9.09%;
-  bottom: 0%;
-  transition: .4s ease-in-out;
 }

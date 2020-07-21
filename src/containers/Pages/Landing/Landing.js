@@ -15,7 +15,9 @@ const Landing = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.Landing}>
-				<LOGO />
+				<div className={classes.Logo}>
+					<LOGO />
+				</div>
 				<NavLink to='/resume'>
 					<img className={classes.crashL} src={crashL} alt='Resume' />
 				</NavLink>
