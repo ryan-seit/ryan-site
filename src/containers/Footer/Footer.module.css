@@ -10,7 +10,7 @@
 
 .Footer {
   /* border: 1px solid red; */
-  width: 90%;
+  width: 85%;
   margin: auto;
   grid-template-columns: repeat(5, 240px);
   grid-template-rows: repeat(4, 50px);

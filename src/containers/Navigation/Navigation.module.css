@@ -1,67 +1,94 @@
-.Navigation {
-  display: grid;
+.Wrapper {
   background: white;
-  /* width: 100%; */
-  grid-template-columns: .2fr repeat(10, auto) .2fr;
-  /* grid-template-rows: 60px; */
+}
+
+.Navigation {
+  /* border: 1px solid red; */
+  display: grid;
+  width: 85%;
+  height: 100%;
+  margin: auto;
+  grid-template-columns: 1fr repeat(5, auto) 1fr;
   grid-template-areas:
-    ". Logo . . . About Technology Music Resume Contact . External";
+    "Logo NavItem NavItem NavItem NavItem NavItem External";
   align-items: center;
 }
 
-a {
+.Navigation a {
   text-decoration: none;
   color: #9D9D9D;
 }
 
-a:hover {
-  color: #4B6B80;
-}
 
-.Navigation div {
+.Navigation .NavItem {
   /* border: 1px solid red; */
+  transition: 0.4s ease;
+  border-bottom: 2px solid #ffffff;
+  padding: 16px 0;
+  margin: 0 50px;
   text-align: center;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
-.Logo>div>svg {
+a.NavItem:hover,
+a.NavItem.selected {
+  /* border: 1px solid red; */
+  border-bottom: 14px solid #C0C3D9;
+  padding: 4px 0;
+  color: #4B6B80;
+}
+
+a.NavItem:hover {
+  border-bottom: 14px solid #DAE6F1;
+}
+
+.Logo {
   /* border: 1px solid red; */
   height: 30px;
   width: 96px;
+}
+
+.Logo>div>svg {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
   grid-area: Logo;
 }
 
-.About {
-  grid-area: About
+.Logo div svg path {
+  transition: fill .3s;
 }
 
-.Technology {
-  grid-area: Technology
-}
-
-.Music {
-  grid-area: Music
-}
-
-.Resume {
-  grid-area: Resume
-}
-
-.Contact {
-  grid-area: Contact
+.Logo div svg:hover path {
+  fill: #838ac0;
 }
 
 .External {
   /* border: 1px solid red; */
   grid-area: External;
   display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-areas: "LinkedIn Github"
+  justify-content: right;
+  grid-template-columns: repeat(2, 60px);
+  grid-template-areas: "LinkedIn Github";
+
+}
+
+.External a div {
+  /* border: 1px solid red; */
+  width: 100%;
+  text-align: right;
+}
+
+.External svg path {
+  transition: fill .3s;
+}
+
+.External svg:hover path {
+  fill: #5E88A4;
 }
 
 .LinkedIn {
-  text-align: right;
   grid-area: LinkedIn
 }
 
