@@ -12,14 +12,20 @@ import RUBY from "../UI/Icons/RUBY";
 import REACT from "../UI/Icons/REACT";
 import REDUX from "../UI/Icons/REDUX";
 import CHROME from "../UI/Icons/CHROME";
+import DOWNLOAD from "../UI/Icons/DOWNLOAD";
 
 const Resume = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.Resume}>
 				<div className={classes.ResumeTop}>
-					<a href='../../../public/Ryan_Seit_Resume.pdf' download>
-						Download Resume
+					<h2>Ryan Seit Resume</h2>
+					<a
+						href='http://localhost:3000/Ryan_Seit_Resume.pdf'
+						alt='Download Ryan Seit Resume'
+						download
+					>
+						<DOWNLOAD />
 					</a>
 				</div>
 				<div className={classes.ResumeLeft}>
