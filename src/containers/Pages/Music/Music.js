@@ -1,7 +1,7 @@
 import React from "react";
 
-import RyanDrums from "../../../assets/Headshots/RyanSeitDrums.png";
-import AlbumArt from "../../../assets/Photos/MusicAcheFadeAway.jpg";
+import RyanDrums from "../../../assets/Images/RyanSeitDrums.png";
+import AlbumArt from "../../../assets/Images/MusicAcheFadeAway.jpg";
 import classes from "./Music.module.css";
 
 const Music = props => {
