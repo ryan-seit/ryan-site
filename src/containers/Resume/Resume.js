@@ -223,7 +223,7 @@ const Resume = props => {
 						<ul>
 							<li>
 								<a
-									href='https://www.youtube.com/watch?v=ehSm2eVTNQM'
+									href='https://youtu.be/ehSm2eVTNQM'
 									target='_blank'
 									rel='noopener noreferrer'
 									alt='Google Next 2019
