@@ -1,10 +1,9 @@
 .Wrapper {
   display: grid;
-  padding: 4% 0;
+  padding: 4% 10%;
 }
 
 .Music {
-  width: 80%;
   margin: auto;
 }
 
@@ -20,6 +19,11 @@
 
 .HeroImg {
   grid-area: heroimg;
+  /* border-radius: 50%; */
+}
+
+.HeroImg img {
+  /* border-radius: 50%; */
 }
 
 .HeroDetail {
@@ -45,4 +49,51 @@
   /* border: 1px solid orange; */
   grid-area: herodtlp;
   margin: 0;
+}
+
+.MusicProjects {
+  /* border: 1px solid red; */
+  display: grid;
+  grid-template-columns: repeat (3, 1fr);
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+    "mscprjtitle mscprjtitle mscprjtitle"
+    "prjsctn prjsctn prjsctn";
+}
+
+.MusicProjects h1 {
+  grid-area: mscprjtitle;
+}
+
+.ProjectSection {
+  grid-area: prjsctn;
+  width: 33%;
+  display: grid;
+  grid-template-rows: 1fr .25fr .5fr;
+  grid-template-areas:
+    "prjsctnimg"
+    "prjsctntitle"
+    "prjsctndtl";
+}
+
+.ProjectSectionImg {
+  /* border: 1px solid green; */
+  grid-area: prjsctnimg;
+  margin: auto;
+}
+
+.ProjectSectionImg img {
+  width: 70%;
+  border-radius: 50%;
+}
+
+.ProjectSectionTitle {
+  /* border: 1px solid green; */
+  grid-area: prjsctntitle;
+}
+
+
+.ProjectSectionDetail {
+  /* border: 1px solid green; */
+  grid-area: prjsctndtl;
 }

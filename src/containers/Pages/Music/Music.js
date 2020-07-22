@@ -1,6 +1,7 @@
 import React from "react";
 
-import RyanDrums from "../../../assets/Headshots/RyanDrums.png";
+import RyanDrums from "../../../assets/Headshots/RyanSeitDrums.png";
+import AlbumArt from "../../../assets/Photos/MusicAcheFadeAway.jpg";
 import classes from "./Music.module.css";
 
 const Music = props => {
@@ -12,7 +13,7 @@ const Music = props => {
 						<img src={RyanDrums} alt='Ryan Seit Drums' />
 					</div>
 					<div className={classes.HeroDetail}>
-						<h2>Title</h2>
+						<h2>Music</h2>
 						<p>
 							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
 							aut fugit, sed quia consequuntur magni dolores eos qui ratione
@@ -20,11 +21,12 @@ const Music = props => {
 						</p>
 					</div>
 				</div>
+
 				<div className={classes.MusicProjects}>
 					<h1>Music-Related Projects</h1>
 					<div className={classes.ProjectSection}>
 						<div className={classes.ProjectSectionImg}>
-							<img src='' alt='Music Project Section' />
+							<img src={AlbumArt} alt='Music Project Section' />
 						</div>
 						<div className={classes.ProjectSectionTitle}>
 							<h3>Art + Design</h3>
