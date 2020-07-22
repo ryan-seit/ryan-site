@@ -1,17 +1,263 @@
 .Wrapper {
   /* border: 1px solid red; */
-  padding: 4% 7.5%;
-  margin: auto;
+  padding: 3% 10%;
+  font-family: 'Saira Semi Condensed', sans-serif;
 }
 
 .Resume {
   /* border: 1px solid red; */
-  text-align: center;
-  /* width: 100%; */
-  /* height: 100%; */
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    "resumeL resumeR";
 }
 
 .Resume>img {
   width: 90%;
   /* height: 100%; */
+}
+
+.ResumeLeft {
+  /* border: 1px solid red; */
+  grid-area: resumeL;
+  display: grid;
+  padding-right: 4%;
+  grid-template-rows: .25fr .25fr .5fr;
+  grid-template-areas:
+    "resumeLsumm"
+    "resumeLskills"
+    "resumeLrecog";
+}
+
+.ResumeLeft_Summary {
+  /* border: 1px solid red; */
+  grid-area: resumeLsumm;
+}
+
+.ResumeLeft_Summary>p>a {
+  text-decoration: none;
+  color: black;
+  transition: .4s;
+}
+
+.ResumeLeft_Summary>p>a:hover {
+  color: #5E88A4;
+}
+
+.ResumeLeft_Skills {
+  /* border: 1px solid red; */
+  grid-area: resumeLskills;
+  display: grid;
+  margin-bottom: 5%;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: 1fr 1fr .5fr;
+  grid-template-areas:
+    "resumeLskillsTitle resumeLskillsTitle ."
+    "resumeLskillsL resumeLskillsR .";
+}
+
+.ResumeLeft_Skills>h3 {
+  /* border: 1px solid red; */
+  grid-area: resumeLskillsTitle;
+}
+
+.ResumeLeft_Skills__L {
+  /* border: 1px solid red; */
+  grid-area: resumeLskillsL;
+}
+
+.ResumeLeft_Skills__R {
+  /* border: 1px solid red; */
+  grid-area: resumeLskillsR;
+}
+
+.ResumeLeft_Recognition {
+  /* border: 1px solid red; */
+  grid-area: resumeLrecog;
+}
+
+.ResumeLeft_Recognition a {
+  text-decoration: none;
+  color: black;
+}
+
+.ResumeRight {
+  /* border: 1px solid red; */
+  grid-area: resumeR;
+  display: grid;
+  padding-left: 6%;
+  grid-template-rows: 2fr .55fr;
+  grid-template-areas:
+    "resumeRexp"
+    "resumeRedu";
+}
+
+.ResumeRight_Experience {
+  /* border: 1px solid red; */
+  grid-area: resumeRexp;
+}
+
+.ResumeRight__Company_Dates {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.ResumeRight_Education>h4,
+.ResumeRight_Experience>h4 {
+  /* border: 1px solid red; */
+  font-size: 20px;
+  font-weight: 700;
+  color: #5E88A4;
+  align-items: flex-end;
+  margin: 1% 0;
+}
+
+.ResumeRight__Company_Dates>h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  display: flex;
+  transition: .4s;
+}
+
+.ResumeRight__Company_Dates>h5>a>div>svg {
+  padding: 0 7px;
+  height: 27px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.ResumeRight__Company_Dates>h5>a>div>svg:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.ResumeRight__Company_Dates>h5:hover {
+  color: #5E88A4;
+}
+
+.ResumeRight__Company_Dates>h6 {
+  /* border: 1px solid red; */
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0;
+}
+
+
+.ResumeRight_Education {
+  /* border: 1px solid red; */
+  grid-area: resumeRedu;
+}
+
+.ResumeLeft_Skills>ul,
+.ResumeLeft_Recognition>ul,
+.ResumeRight_Experience>ul,
+.ResumeRight_Education>ul {
+  /* border: 1px solid blue; */
+  margin: 2% 0 4% 0%;
+  font-size: 16px;
+}
+
+.ResumeRight_Experience>ul {
+  /* border: 1px solid blue; */
+  margin: 2% 0 4% 3%;
+}
+
+
+.ResumeLeft_Recognition>ul>li,
+.ResumeRight_Experience>ul>li,
+.ResumeRight_Experience>ul>li>a {
+  margin: .5% 0% 1% 0%;
+  list-style-type: disc;
+  text-decoration: none;
+  color: black;
+  transition: .4s;
+}
+
+.ResumeRight_Experience>ul>li>a:hover {
+  color: #5E88A4;
+}
+
+.ResumeLeft_Skills>ul>li,
+.ResumeLeft_Recognition>ul>li {
+  list-style-type: none;
+}
+
+.ResumeLeft_Skills__L>ul,
+.ResumeLeft_Skills__R>ul {
+  margin: 5% 0 0 0;
+}
+
+.ResumeLeft_Skills__L>ul>li>a,
+.ResumeLeft_Skills__R>ul>li>a {
+  /* border: 1px solid red; */
+  align-items: center;
+  margin: 0% 0% 3% 0%;
+  display: flex;
+  height: 50px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.ResumeLeft_Skills__L>ul>li>a>div,
+.ResumeLeft_Skills__R>ul>li>a>div {
+  margin: 5% 7% 0% 0%;
+}
+
+.ResumeLeft_Skills__L>ul>li>a>div>svg>circle,
+.ResumeLeft_Skills__R>ul>li>a>div>svg>circle {
+  fill: #5E88A4;
+}
+
+.ResumeLeft_Skills__L>ul>li>a>div>svg,
+.ResumeLeft_Skills__R>ul>li>a>div>svg {
+  -webkit-transition: -webkit-transform .7s ease-in-out;
+  transition: transform .7s ease-in-out;
+}
+
+.ResumeLeft_Skills__L>ul>li>a,
+.ResumeLeft_Skills__R>ul>li>a {
+  transition: .4s;
+}
+
+.ResumeLeft_Skills__L>ul>li>a:hover div>svg,
+.ResumeLeft_Skills__R>ul>li>a:hover div>svg {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.ResumeLeft_Skills__L>ul>li>a:hover,
+.ResumeLeft_Skills__R>ul>li>a:hover {
+  color: #5E88A4;
+}
+
+.ResumeLeft_Summary>h3,
+.ResumeLeft_Skills>h3,
+.ResumeLeft_Recognition>h3,
+.ResumeRight_Experience>h3,
+.ResumeRight_Education>h3 {
+  /* border: 1px solid blue; */
+  font-size: 20px;
+  font-weight: 600;
+  margin: 1% 0%;
+  letter-spacing: 0;
+}
+
+.ResumeRight_Education .ResumeRight__Company_Dates {
+  margin: 0 0 4% 0;
+}
+
+.ResumeRight_Education>h3 {
+  margin: 1% 0 2% 0;
+}
+
+.ResumeLeft_Summary>p {
+  /* border: 1px solid red; */
+  font-size: 16px;
+  font-weight: 400;
+  text-align: justify;
+  margin: 3% 0% 4% 0;
+  letter-spacing: 0;
 }

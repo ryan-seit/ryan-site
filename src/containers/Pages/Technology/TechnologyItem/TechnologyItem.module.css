@@ -79,7 +79,8 @@
   grid-area: title;
 }
 
-ul {
+.PortfolioInfo>ul,
+.Details>ul {
   /* border: 1px solid red; */
   align-items: center;
   grid-area: links;
