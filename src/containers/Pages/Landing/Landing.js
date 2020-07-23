@@ -1,17 +1,22 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import useLockBodyScroll from "../../useLockBodyScroll";
 // import allDrums from "../../../assets/Landing/allDrums.svg";
 import LOGO from "../../UI/Logo/LOGO";
-import crashL from "../../../assets/Landing/crashL.svg";
-import crashR from "../../../assets/Landing/crashR.svg";
-import floorTom from "../../../assets/Landing/floorTom.svg";
-import hihat from "../../../assets/Landing/hihat.svg";
-import ride from "../../../assets/Landing/ride.svg";
-import snare from "../../../assets/Landing/snare.svg";
-import tom from "../../../assets/Landing/tom.svg";
+
+import CRASHL from "../../UI/Landing/CRASHL";
+import CRASHR from "../../UI/Landing/CRASHR";
+import HIHAT from "../../UI/Landing/HIHAT";
+import RIDE from "../../UI/Landing/RIDE";
+import SNARE from "../../UI/Landing/SNARE";
+import TOM from "../../UI/Landing/TOM";
+import FLOORTOM from "../../UI/Landing/FLOORTOM";
+
 import classes from "./Landing.module.css";
 
 const Landing = props => {
+	useLockBodyScroll();
+
 	return (
 		<div className={classes.Wrapper}>
 			<div className={classes.Landing}>
@@ -19,22 +24,34 @@ const Landing = props => {
 					<LOGO />
 				</div>
 				<NavLink to='/resume'>
-					<img className={classes.crashL} src={crashL} alt='Resume' />
+					<div className={classes.crashL}>
+						<CRASHL />
+					</div>
 				</NavLink>
 				<NavLink to='/music'>
-					<img className={classes.crashR} src={crashR} alt='Music' />
-				</NavLink>
-				<NavLink to='/contact'>
-					<img className={classes.floorTom} src={floorTom} alt='Contact' />
+					<div className={classes.crashR}>
+						<CRASHR />
+					</div>
 				</NavLink>
 				<NavLink to='/about'>
-					<img className={classes.hihat} src={hihat} alt='About' />
+					<div className={classes.hihat}>
+						<HIHAT />
+					</div>
 				</NavLink>
 				<NavLink to='/technology'>
-					<img className={classes.ride} src={ride} alt='Technology' />
+					<div className={classes.ride}>
+						<RIDE />
+					</div>
 				</NavLink>
-				<img className={classes.snare} src={snare} alt='none' />
-				<img className={classes.tom} src={tom} alt='none' />
+				<div className={classes.snare}>
+					<SNARE />
+				</div>
+				<div className={classes.tom}>
+					<TOM />
+				</div>
+				<div className={classes.floorTom}>
+					<FLOORTOM />
+				</div>
 			</div>
 		</div>
 	);

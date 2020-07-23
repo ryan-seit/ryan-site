@@ -6,7 +6,6 @@ import Technology from "./containers/Pages/Technology/Technology";
 import Music from "./containers/Pages/Music/Music";
 import About from "./containers/About/About";
 import Resume from "./containers/Resume/Resume";
-import Footer from "./containers/Footer/Footer";
 
 const App = () => {
 	return (
@@ -14,7 +13,6 @@ const App = () => {
 			<Switch>
 				<Route path='/' exact component={Landing}>
 					<Landing />
-					<Footer />
 				</Route>
 				<Layout>
 					<Route path='/technology' component={Technology} />
