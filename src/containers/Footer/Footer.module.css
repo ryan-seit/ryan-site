@@ -3,9 +3,10 @@
   background: #5E88A4;
   display: grid;
   height: 310px;
+  /* width: 100vw; */
   text-align: center;
-  position: relative;
-  z-index: 10;
+  /* position: relative; */
+  /* z-index: 10; */
 }
 
 .Footer {

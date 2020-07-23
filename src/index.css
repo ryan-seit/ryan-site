@@ -1,18 +1,18 @@
 body {
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #000000;
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #000000;
 }
 
 p {
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: rgba(0, 0, 0, 0.8);
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	letter-spacing: 0.03em;
+	color: rgba(0, 0, 0, 0.8);
 }
 
 h1,
@@ -21,88 +21,92 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 h1 {
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 72px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.125em;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 72px;
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.125em;
 }
 
 h2 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 36px;
-  letter-spacing: 0.125em;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 36px;
+	letter-spacing: 0.125em;
 }
 
 h3 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  letter-spacing: 0.125em;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	letter-spacing: 0.125em;
 }
 
-h4 {}
+h4 {
+}
 
-h5 {}
+h5 {
+}
 
-h6 {}
+h6 {
+}
 
 ul {
-  list-style-type: none;
-  padding: 0;
+	list-style-type: none;
+	padding: 0;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
 }
 
 .slick-slide {
-  opacity: 0.3;
+	opacity: 0.3;
+	outline: none;
 }
 
 .slick-center {
-  opacity: 1;
+	opacity: 1;
 }
 
-.slick-slider>button {
-  /* border: 1px solid red; */
-  position: absolute;
-  top: 100%;
-  /* color: black; */
+.slick-slider > button {
+	/* border: 1px solid red; */
+	position: absolute;
+	top: 100%;
+	/* color: black; */
 }
 
 .slick-arrow {
-  /* border: 1px solid red; */
-  /* color: black; */
+	/* border: 1px solid red; */
+	/* color: black; */
 }
 
 .slick-next {
-  right: 48%;
-  color: black;
+	right: 48.5%;
+	color: black;
 }
 
 .slick-prev {
-  left: 48%;
-  color: black;
+	left: 48%;
+	color: black;
 }
 
 .slick-next:before,
 .slick-prev:before {
-  color: #9D9D9D;
-  opacity: 1;
-  font-size: 30px;
+	color: #9d9d9d;
+	opacity: 1;
+	font-size: 30px;
 }
 
-.slick-next:before:hover,
-.slick-prev:before:hover {
-  color: #4B6B80;
+.slick-next:before:hover button,
+.slick-prev:before:hover button {
+	color: #4b6b80;
 }

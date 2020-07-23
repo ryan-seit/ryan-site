@@ -1,8 +1,9 @@
 .Wrapper {
-  /* border: 1px solid red; */
-  /* display: none; */
-  width: 100vw;
-  padding: 4% 0;
-  /* height: 100%; */
-  /* margin: auto; */
+	/* border: 2px solid red; */
+	width: 99vw;
+	padding: 3% 0 2.5% 0;
+}
+
+.Wrapper > div {
+	outline: none;
 }

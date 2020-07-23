@@ -9,29 +9,36 @@ const projects = {
 			"https://github.com/ryan-seit/drumblr-frontend/raw/master/drumblr-image.png",
 		title: "Drumblr",
 		links: {
-			github: "https://github.com/ryan-seit/ecommify-frontend",
-			medium:
-				"https://medium.com/@ryan_49675/beginners-guide-to-using-axios-23ca5922d183",
-			web:
-				"https://medium.com/@ryan_49675/beginners-guide-to-using-axios-23ca5922d183",
+			github: "https://github.com/ryan-seit/drumblr-frontend",
+			medium: "",
+			web: "",
 		},
 		desc:
 			"Designed as an homage to late 80's/early 90's drum machines, Drumblr is a digital drum machine users can play in the browser, with customizable tempo, rhythms, and presets.",
 	},
 	p2: {
-		img: "",
-		title: "",
+		img: "http://localhost:3000/BurgerBuilder.png",
+		title: "Burger Builder",
 		links: {
-			github: "",
+			github: "https://github.com/ryan-seit/burger-builder",
 			medium: "",
 			web: "",
 		},
-		desc: "",
+		desc:
+			"Responsive POS application allowing customers to customize ingredients and place orders",
+	},
+	p3: {
+		img: "http://localhost:3000/eCommify.png",
+		title: "eCommify",
+		links: {
+			github: "https://github.com/ryan-seit/ecommify-frontend",
+			medium: "",
+			web: "",
+		},
+		desc:
+			"E-Commerce clothing application allowing users to purchase clothing through an integrated Stripe API",
 	},
 };
-
-// TODO: Add horizontal carousel layout
-// TODO: Add pagination
 
 const settings = {
 	centerMode: true,
@@ -39,24 +46,16 @@ const settings = {
 	centerPadding: "60",
 	slidesToShow: 2.2,
 	speed: 500,
-	// arrows: true,
-	// prevArrow: .prev,
-	// nextArrow: .next
+	arrows: true,
 };
 
 const Technology = props => {
 	return (
 		<div className={classes.Wrapper}>
 			<Slider {...settings}>
-				<div>
-					<TechnologyItem project={projects.p1} />
-				</div>
-				<div>
-					<TechnologyItem project={projects.p1} />
-				</div>
-				<div>
-					<TechnologyItem project={projects.p1} />
-				</div>
+				<TechnologyItem project={projects.p1} />
+				<TechnologyItem project={projects.p2} />
+				<TechnologyItem project={projects.p3} />
 			</Slider>
 		</div>
 	);

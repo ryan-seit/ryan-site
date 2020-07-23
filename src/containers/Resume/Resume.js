@@ -2,7 +2,7 @@ import React from "react";
 
 import classes from "./Resume.module.css";
 import VSCODE from "../UI/Icons/VSCODE";
-import GITHUB from "../UI/Icons/GITHUB";
+import GIT from "../UI/Icons/GIT";
 import CSS from "../UI/Icons/CSS";
 import HTML from "../UI/Icons/HTML";
 import JS from "../UI/Icons/JS";
@@ -199,8 +199,8 @@ const Resume = props => {
 										rel='noopener noreferrer'
 										alt='Git Site'
 									>
-										<GITHUB />
-										Github
+										<GIT />
+										Git
 									</a>
 								</li>
 								<li>
