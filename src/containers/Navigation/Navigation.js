@@ -49,14 +49,6 @@ const navigation = props => {
 				>
 					RESUME
 				</NavLink>
-				<NavLink
-					exact
-					to='/contact'
-					className={classes.NavItem}
-					activeClassName={classes.selected}
-				>
-					CONTACT
-				</NavLink>
 
 				<div className={classes.External}>
 					<a href='https://www.linkedin.com/in/ryan-seit/'>

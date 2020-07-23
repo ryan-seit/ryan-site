@@ -8,9 +8,9 @@
   width: 85%;
   height: 100%;
   margin: auto;
-  grid-template-columns: 1fr repeat(5, auto) 1fr;
+  grid-template-columns: 1fr repeat(4, auto) 1fr;
   grid-template-areas:
-    "Logo NavItem NavItem NavItem NavItem NavItem External";
+    "Logo NavItem NavItem NavItem NavItem External";
   align-items: center;
 }
 
