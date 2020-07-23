@@ -2,7 +2,7 @@
 	"name": "ryan-seit",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://ryan-seit.github.io/",
+	"homepage": "https://ryan-seit.github.io/ryan-site",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
 		"@testing-library/react": "^9.3.2",
