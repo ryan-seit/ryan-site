@@ -51,12 +51,22 @@ const navigation = props => {
 				</NavLink>
 
 				<div className={classes.External}>
-					<a href='https://www.linkedin.com/in/ryan-seit/'>
+					<a
+						href='https://www.linkedin.com/in/ryan-seit/'
+						target='_blank'
+						rel='noopener noreferrer'
+						alt='Ryan Seit LinkedIn Page'
+					>
 						<div className={classes.LinkedIn}>
 							<LINKEDINplain />
 						</div>
 					</a>
-					<a href='https://github.com/ryan-seit'>
+					<a
+						href='https://github.com/ryan-seit'
+						target='_blank'
+						rel='noopener noreferrer'
+						alt='Ryan Seit GitHub Page'
+					>
 						<div className={classes.Github}>
 							<GITHUBplain />
 						</div>

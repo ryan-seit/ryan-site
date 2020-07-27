@@ -1,0 +1,35 @@
+.ProjectSection {
+  /* border: 1px solid red; */
+  display: grid;
+  padding: 0 8%;
+  grid-template-rows: 1.75fr .25fr .50fr;
+  grid-template-areas:
+    "prjsctnimg"
+    "prjsctntitle"
+    "prjsctndtl";
+}
+
+.ProjectSectionImg {
+  grid-area: prjsctnimg;
+  /* margin: auto; */
+}
+
+.ProjectSectionImg img {
+  width: 350px;
+  border-radius: 50%;
+}
+
+.ProjectSectionTitle {
+  /* border: 1px solid green; */
+  grid-area: prjsctntitle;
+}
+
+.ProjectSectionTitle h3 {
+  /* border: 1px solid green; */
+}
+
+
+.ProjectSectionDetail {
+  /* border: 1px solid green; */
+  grid-area: prjsctndtl;
+}

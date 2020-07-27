@@ -13,27 +13,59 @@ const projects = {
 			medium: "",
 			web: "",
 		},
+		tech: {
+			react: true,
+			redux: false,
+			rails: true,
+			ruby: true,
+			js: true,
+			pg: true,
+			html: true,
+			css: true,
+		},
 		desc:
 			"Designed as an homage to late 80's/early 90's drum machines, Drumblr is a digital drum machine users can play in the browser, with customizable tempo, rhythms, and presets.",
 	},
 	p2: {
-		img: "http://localhost:3000/BurgerBuilder.png",
+		img:
+			"https://github.com/ryan-seit/ryan-site/blob/master/public/BurgerBuilder.png?raw=true",
 		title: "Burger Builder",
 		links: {
 			github: "https://github.com/ryan-seit/burger-builder",
 			medium: "",
 			web: "",
 		},
+		tech: {
+			react: true,
+			redux: true,
+			rails: false,
+			ruby: false,
+			js: true,
+			pg: false,
+			html: true,
+			css: true,
+		},
 		desc:
 			"Responsive POS application allowing customers to customize ingredients and place orders",
 	},
 	p3: {
-		img: "http://localhost:3000/eCommify.png",
+		img:
+			"https://github.com/ryan-seit/ryan-site/blob/master/public/eCommify.png?raw=true",
 		title: "eCommify",
 		links: {
 			github: "https://github.com/ryan-seit/ecommify-frontend",
 			medium: "",
 			web: "",
+		},
+		tech: {
+			react: true,
+			redux: true,
+			rails: true,
+			ruby: true,
+			js: true,
+			pg: true,
+			html: true,
+			css: true,
 		},
 		desc:
 			"E-Commerce clothing application allowing users to purchase clothing through an integrated Stripe API",
@@ -50,6 +82,7 @@ const settings = {
 };
 
 const Technology = props => {
+	console.log(projects.p1.img);
 	return (
 		<div className={classes.Wrapper}>
 			<Slider {...settings}>

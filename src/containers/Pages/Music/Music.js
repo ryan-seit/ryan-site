@@ -1,8 +1,8 @@
 import React from "react";
-
 import RyanDrums from "../../../assets/Images/RyanSeitDrums.png";
 import AlbumArt from "../../../assets/Images/MusicAcheFadeAway.jpg";
 import classes from "./Music.module.css";
+import MusicItem from "./MusicItem/MusicItem";
 
 const Music = props => {
 	return (
@@ -10,7 +10,11 @@ const Music = props => {
 			<div className={classes.Music}>
 				<div className={classes.Hero}>
 					<div className={classes.HeroImg}>
-						<img src={RyanDrums} alt='Ryan Seit Drums' />
+						<img
+							className={classes.Loading}
+							src={RyanDrums}
+							alt='Ryan Seit Drums'
+						/>
 					</div>
 					<div className={classes.HeroDetail}>
 						<h2>Music</h2>
@@ -24,21 +28,30 @@ const Music = props => {
 
 				<div className={classes.MusicProjects}>
 					<h1>Music-Related Projects</h1>
-					<div className={classes.ProjectSection}>
-						<div className={classes.ProjectSectionImg}>
-							<img src={AlbumArt} alt='Music Project Section' />
-						</div>
-						<div className={classes.ProjectSectionTitle}>
-							<h3>Art + Design</h3>
-						</div>
-						<div className={classes.ProjectSectionDetail}>
-							<p>
-								Amet, consectetur adipiscing elit, sed do eiusmod tempor
-								incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-								veniam, quis.
-							</p>
-						</div>
-					</div>
+					<MusicItem
+						img={AlbumArt}
+						imgAlt='Performance'
+						title='Performance'
+						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis.'
+					/>
+					<MusicItem
+						img={AlbumArt}
+						imgAlt='Performance'
+						title='Recording + Editing'
+						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis.'
+					/>
+					<MusicItem
+						img={AlbumArt}
+						imgAlt='Performance'
+						title='Design'
+						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor
+									incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+									veniam, quis.'
+					/>
 				</div>
 			</div>
 		</div>

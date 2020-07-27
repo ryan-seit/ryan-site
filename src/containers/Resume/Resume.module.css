@@ -4,6 +4,10 @@
   font-family: "Saira Semi Condensed", sans-serif;
 }
 
+img.Loading {
+  background: transparent url(https://gph.is/2ytRD4W) no-repeat scroll center center;
+}
+
 .Resume {
   /* border: 1px solid red; */
   display: grid;
@@ -12,10 +16,6 @@
   grid-template-areas:
     "resumeTop resumeTop"
     "resumeL resumeR";
-}
-
-.Resume>img {
-  width: 90%;
 }
 
 .ResumeTop {
@@ -57,7 +57,6 @@
   /* border: 1px solid red; */
   grid-area: resumeL;
   display: grid;
-  padding-right: 4%;
   grid-template-rows: 0.25fr 0.25fr 0.5fr;
   grid-template-areas:
     "resumeLsumm"
@@ -121,7 +120,7 @@
   /* border: 1px solid red; */
   grid-area: resumeR;
   display: grid;
-  padding-left: 6%;
+  padding-left: 8%;
   grid-template-rows: 2fr 0.55fr;
   grid-template-areas:
     "resumeRexp"
@@ -157,20 +156,20 @@
   transition: 0.4s;
 }
 
-.ResumeRight__Company_Dates>h5>a>div>svg {
-  padding: 0 7px;
+.ResumeRight__Company_Dates>h5>a {
   height: 27px;
-  -webkit-transition: -webkit-transform 0.8s ease-in-out;
-  transition: transform 0.8s ease-in-out;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s;
+  /* -webkit-transition: -webkit-transform 0.8s ease-in-out; */
+  /* transition: transform 0.8s ease-in-out; */
 }
 
-.ResumeRight__Company_Dates>h5>a>div>svg:hover {
-  -webkit-transform: rotate(360deg);
-  transform: rotate(360deg);
-}
-
-.ResumeRight__Company_Dates>h5:hover {
+.ResumeRight__Company_Dates>h5>a:hover {
+  /* -webkit-transform: rotate(360deg); */
+  /* transform: rotate(360deg) */
   color: #5e88a4;
+
 }
 
 .ResumeRight__Company_Dates>h6 {

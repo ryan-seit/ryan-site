@@ -58,42 +58,10 @@
   grid-template-rows: 1fr 3fr;
   grid-template-areas:
     "mscprjtitle mscprjtitle mscprjtitle"
-    "prjsctn prjsctn prjsctn";
+    "prjsctn1 prjsctn2 prjsctn3";
 }
 
 .MusicProjects h1 {
   grid-area: mscprjtitle;
-}
-
-.ProjectSection {
-  grid-area: prjsctn;
-  width: 33%;
-  display: grid;
-  grid-template-rows: 1fr .25fr .5fr;
-  grid-template-areas:
-    "prjsctnimg"
-    "prjsctntitle"
-    "prjsctndtl";
-}
-
-.ProjectSectionImg {
-  /* border: 1px solid green; */
-  grid-area: prjsctnimg;
-  margin: auto;
-}
-
-.ProjectSectionImg img {
-  width: 70%;
-  border-radius: 50%;
-}
-
-.ProjectSectionTitle {
-  /* border: 1px solid green; */
-  grid-area: prjsctntitle;
-}
-
-
-.ProjectSectionDetail {
-  /* border: 1px solid green; */
-  grid-area: prjsctndtl;
+  margin: 0 0 5% 0;
 }

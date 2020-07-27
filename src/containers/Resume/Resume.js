@@ -11,7 +11,6 @@ import RAILS from "../UI/Icons/RAILS";
 import RUBY from "../UI/Icons/RUBY";
 import REACT from "../UI/Icons/REACT";
 import REDUX from "../UI/Icons/REDUX";
-import CHROME from "../UI/Icons/CHROME";
 import DOWNLOAD from "../UI/Icons/DOWNLOAD";
 
 const Resume = props => {
@@ -21,7 +20,7 @@ const Resume = props => {
 				<div className={classes.ResumeTop}>
 					<h2>Ryan Seit Resume</h2>
 					<a
-						href='http://localhost:3000/Ryan_Seit_Resume.pdf'
+						href='https://github.com/ryan-seit/ryan-site/raw/master/public/Ryan_Seit_Resume.pdf'
 						alt='Download Ryan Seit Resume'
 						download
 					>
@@ -288,14 +287,13 @@ const Resume = props => {
 						<h4>IT Director</h4>
 						<div className={classes.ResumeRight__Company_Dates}>
 							<h5>
-								Casper Sleep Inc
 								<a
 									href='https://www.casper.com'
 									target='_blank'
 									rel='noopener noreferrer'
 									alt='Casper Sleep Website'
 								>
-									<CHROME />
+									Casper Sleep Inc
 								</a>
 							</h5>
 
@@ -424,14 +422,13 @@ const Resume = props => {
 						<h4>Software Engineering</h4>
 						<div className={classes.ResumeRight__Company_Dates}>
 							<h5>
-								Flatiron School
 								<a
 									href='https://flatironschool.com/'
 									target='_blank'
 									rel='noopener noreferrer'
 									alt='The Flatiron School Website'
 								>
-									<CHROME />
+									Flatiron School
 								</a>
 							</h5>
 							<h6>February 2020 - June 2020</h6>
@@ -488,9 +485,6 @@ const Resume = props => {
 						</div>
 					</div>
 				</div>
-
-				{/* <img src={Ryan_Seit_Resume} target="_blank"  rel="noopener noreferrer" alt='Ryan Seit Resume' /> */}
-				{/* <p>Resume download link</p> */}
 			</div>
 		</div>
 	);
