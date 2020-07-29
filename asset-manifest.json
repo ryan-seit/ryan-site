@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdaef336.chunk.css",
+    "main.css": "/static/css/main.0b09a7bc.chunk.css",
     "main.js": "/static/js/main.d79ad8f4.chunk.js",
     "main.js.map": "/static/js/main.d79ad8f4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3245e991.js",
@@ -8,9 +8,9 @@
     "static/js/2.083a55a9.chunk.js": "/static/js/2.083a55a9.chunk.js",
     "static/js/2.083a55a9.chunk.js.map": "/static/js/2.083a55a9.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e9ead79ace145980796ae6ab99be16e7.js": "/precache-manifest.e9ead79ace145980796ae6ab99be16e7.js",
+    "precache-manifest.f7ebbbefa78036da9ef4a66efdf6407b.js": "/precache-manifest.f7ebbbefa78036da9ef4a66efdf6407b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.fdaef336.chunk.css.map": "/static/css/main.fdaef336.chunk.css.map",
+    "static/css/main.0b09a7bc.chunk.css.map": "/static/css/main.0b09a7bc.chunk.css.map",
     "static/js/2.083a55a9.chunk.js.LICENSE.txt": "/static/js/2.083a55a9.chunk.js.LICENSE.txt",
     "static/media/MixingBoard.png": "/static/media/MixingBoard.9eee8dea.png",
     "static/media/MusicAcheFadeAway.jpg": "/static/media/MusicAcheFadeAway.70513593.jpg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.3245e991.js",
     "static/js/2.083a55a9.chunk.js",
-    "static/css/main.fdaef336.chunk.css",
+    "static/css/main.0b09a7bc.chunk.css",
     "static/js/main.d79ad8f4.chunk.js"
   ]
 }
