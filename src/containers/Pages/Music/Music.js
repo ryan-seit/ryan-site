@@ -1,6 +1,8 @@
 import React from "react";
 import RyanDrums from "../../../assets/Images/RyanSeitDrums.png";
 import AlbumArt from "../../../assets/Images/MusicAcheFadeAway.jpg";
+import RyanLive from "../../../assets/Images/RyanAcheLive1.png";
+import MixingBoard from "../../../assets/Images/MixingBoard.png";
 import classes from "./Music.module.css";
 import MusicItem from "./MusicItem/MusicItem";
 
@@ -29,7 +31,7 @@ const Music = props => {
 				<div className={classes.MusicProjects}>
 					<h1>Music-Related Projects</h1>
 					<MusicItem
-						img={AlbumArt}
+						img={RyanLive}
 						imgAlt='Performance'
 						title='Performance'
 						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -37,7 +39,7 @@ const Music = props => {
 									veniam, quis.'
 					/>
 					<MusicItem
-						img={AlbumArt}
+						img={MixingBoard}
 						imgAlt='Performance'
 						title='Recording + Editing'
 						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor

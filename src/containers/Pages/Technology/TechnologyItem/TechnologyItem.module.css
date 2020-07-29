@@ -12,6 +12,7 @@
 .PortfolioImage>img {
 	border-radius: 50%;
 	width: 100%;
+	background-color: lightblue;
 }
 
 .PortfolioImage .PortfolioInfo {

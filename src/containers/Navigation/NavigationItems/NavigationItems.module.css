@@ -1,14 +1,90 @@
 .NavigationItems {
-  width: 100px;
-  height: 18px;
-
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 18px;
-
-  display: flex;
+  /* border: 1px solid red; */
+  height: 60px;
+  width: 85%;
+  display: grid;
+  grid-template-columns: 1fr repeat(4, auto) 1fr;
+  grid-template-areas:
+    "Logo NavItem NavItem NavItem NavItem External";
   align-items: center;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  margin: auto;
+}
+
+.Logo {
+  /* border: 1px solid red; */
+  height: 30px;
+  width: 96px;
+  grid-area: Logo;
+}
+
+.Logo svg {
+  /* border: 1px solid red; */
+  height: 100%;
+  width: 100%;
+}
+
+.Logo div svg path {
+  transition: fill .3s;
+}
+
+.Logo div svg:hover path {
+  fill: #838ac0;
+}
+
+.External {
+  /* border: 1px solid red; */
+  grid-area: External;
+  display: grid;
+  justify-content: right;
+  grid-template-columns: repeat(2, 60px);
+  grid-template-areas: "LinkedIn Github";
+
+}
+
+.External a div {
+  /* border: 1px solid red; */
+  width: 100%;
+  text-align: right;
+}
+
+.External svg path {
+  transition: fill .3s;
+}
+
+.External svg:hover path {
+  fill: #5E88A4;
+}
+
+.LinkedIn {
+  grid-area: LinkedIn
+}
+
+.Github {
+  grid-area: Github
+}
+
+@media (max-width: 999px) {
+  .NavigationItems {
+    /* border: 1px solid red; */
+    display: block;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+  }
+
+  .Logo {
+    display: none;
+  }
+
+  .External {
+    /* border-top: 2px solid white; */
+    padding: 15% 10%;
+  }
+
+  .Github svg path,
+  .LinkedIn svg path {
+    fill: white;
+  }
+
 }

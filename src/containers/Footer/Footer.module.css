@@ -90,3 +90,10 @@
   color: white;
   margin-top: 2%;
 }
+
+@media (max-width: 1000px) {
+
+  .Wrapper {
+    display: none;
+  }
+}

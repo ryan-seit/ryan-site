@@ -1,0 +1,41 @@
+.SideDrawer {
+  position: fixed;
+  width: 220px;
+  max-width: 70%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 200;
+  background-color: #5E88A4;
+  box-sizing: border-box;
+  opacity: .7;
+  backdrop-filter: blur(50px);
+  transition: transform 0.3s ease-out;
+}
+
+@media (min-width: 1000px) {
+  .SideDrawer {
+    display: none;
+  }
+}
+
+.Open {
+  transform: translateX(0);
+}
+
+.Close {
+  transform: translateX(-100%);
+}
+
+.SideDrawer__Top {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo svg {
+  /* border: 3px solid red; */
+  padding: 20%;
+  height: 48px;
+  margin-bottom: 32px;
+}

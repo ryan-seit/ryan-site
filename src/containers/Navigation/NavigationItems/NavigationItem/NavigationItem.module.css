@@ -1,4 +1,43 @@
-.NavigationItem {
-  padding: 0 10px;
+.NavigationItem a {
+  /* border: 1px solid red; */
+  transition: 0.3s ease;
+  border-bottom: 5px solid #ffffff;
+  padding: 16px 0;
+  margin: 0 50px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
   color: #9D9D9D;
+}
+
+.NavigationItem a:hover,
+.NavigationItem a.selected {
+  /* border: 1px solid red; */
+  border-bottom: 14px solid #C0C3D9;
+  padding: 4px 0;
+  color: #4B6B80;
+}
+
+@media (max-width: 999px) {
+  .NavigationItem a {
+    /* border: 1px solid red; */
+    font-size: 24px;
+    display: inline-block;
+    margin: 20px 0;
+    width: 180px;
+    padding: 20px;
+    color: white;
+    border-bottom: none;
+  }
+
+  .NavigationItema:active,
+  .NavigationItem a.selected {
+    margin: 20px 0;
+    width: 180px;
+    padding: 20px 13px;
+    border-bottom: none;
+    color: white;
+    background-color: #40a4c8;
+    border-right: 15px solid white;
+  }
 }

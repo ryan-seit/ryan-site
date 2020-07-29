@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.Landing h4 {
+  display: none;
+}
+
 .Logo>div {
   grid-area: logo;
   width: 294px;
@@ -131,4 +135,135 @@
 .floorTom:hover {
   -webkit-transform: translate(0, 1.5em);
   transform: translate(0, 1.5em);
+}
+
+@media (max-width: 1000px) {
+
+  .hihat svg,
+  .crashL svg,
+  .crashR svg,
+  .tom svg,
+  .snare svg,
+  .ride svg,
+  .floorTom svg {
+    display: none;
+    /* position: absolute; */
+  }
+
+  .Landing a h4 {
+    display: inline-block;
+    color: white;
+    font-weight: 900;
+    letter-spacing: 3px;
+    /* text-align: center; */
+  }
+
+  .tom {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  .ride {
+    box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  .crashL,
+  .crashR {
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .hihat,
+  .snare,
+  .floorTom {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  }
+
+  .hihat {
+    background-color: #DAE6F1;
+    border-radius: 50%;
+    height: 115px;
+    width: 115px;
+    z-index: 2;
+    top: 20%;
+    left: 15%;
+    text-align: center;
+  }
+
+  .crashL {
+    background-color: #EDDED6;
+    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    z-index: 3;
+    top: 15%;
+    left: 50%;
+  }
+
+
+  .tom {
+    background-color: #DBE0D9;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    z-index: 2;
+    top: 35%;
+    left: 40%;
+  }
+
+  .snare {
+    background-color: #C0C3D9;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    z-index: 1;
+    top: 35%;
+    left: 8%;
+  }
+
+  .ride {
+    background-color: #F9A9A9;
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+    z-index: 3;
+    top: 48%;
+    left: 40%;
+  }
+
+  .floorTom {
+    background-color: #CADBE2;
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+    z-index: 1;
+    top: 59%;
+    left: 8%;
+  }
+
+  .crashR {
+    background-color: #B8E5FF;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    z-index: 4;
+    top: 75%;
+    left: 30%;
+  }
+
+  .Logo {
+    /* border: 1px solid red; */
+  }
+
+  .Logo>div {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 3%;
+    width: 105px;
+    height: 34px;
+  }
+
+  .Logo>div>svg {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+  }
 }

@@ -1,17 +1,17 @@
 import React from "react";
 
 import classes from "./Resume.module.css";
-import VSCODE from "../UI/Icons/VSCODE";
-import GIT from "../UI/Icons/GIT";
-import CSS from "../UI/Icons/CSS";
-import HTML from "../UI/Icons/HTML";
-import JS from "../UI/Icons/JS";
-import PG from "../UI/Icons/PG";
-import RAILS from "../UI/Icons/RAILS";
-import RUBY from "../UI/Icons/RUBY";
-import REACT from "../UI/Icons/REACT";
-import REDUX from "../UI/Icons/REDUX";
-import DOWNLOAD from "../UI/Icons/DOWNLOAD";
+import VSCODE from "../../UI/Icons/VSCODE";
+import GIT from "../../UI/Icons/GIT";
+import CSS from "../../UI/Icons/CSS";
+import HTML from "../../UI/Icons/HTML";
+import JS from "../../UI/Icons/JS";
+import PG from "../../UI/Icons/PG";
+import RAILS from "../../UI/Icons/RAILS";
+import RUBY from "../../UI/Icons/RUBY";
+import REACT from "../../UI/Icons/REACT";
+import REDUX from "../../UI/Icons/REDUX";
+import DOWNLOAD from "../../UI/Icons/DOWNLOAD";
 
 const Resume = props => {
 	return (
@@ -31,50 +31,50 @@ const Resume = props => {
 					<div className={classes.ResumeLeft_Summary}>
 						<h3>Summary</h3>
 						<p>
-							Full stack developer proficient in&nbsp;
+							Full stack developer proficient in
 							<a
 								href='https://www.javascript.com/'
 								target='_blank'
 								rel='noopener noreferrer'
 								alt='JavaScript Site'
 							>
-								JavaScript
+								&nbsp; JavaScript
 							</a>
-							,&nbsp;
+							,
 							<a
 								href='https://reactjs.org/'
 								target='_blank'
 								rel='noopener noreferrer'
 								alt='React Site'
 							>
-								React
+								&nbsp; React
 							</a>
-							,&nbsp;
+							,
 							<a
 								href='https://redux.js.org/'
 								target='_blank'
 								rel='noopener noreferrer'
 								alt='Redux Site'
 							>
-								Redux
+								&nbsp; Redux
 							</a>
-							,&nbsp;
+							,
 							<a
 								href='https://www.iso.org/standard/63555.html'
 								target='_blank'
 								rel='noopener noreferrer'
 								alt='SQL Site'
 							>
-								SQL
+								&nbsp; SQL
 							</a>
-							,&nbsp;
+							,
 							<a
 								href='https://www.ruby-lang.org/en/'
 								target='_blank'
 								rel='noopener noreferrer'
 								alt='Ruby Site'
 							>
-								Ruby
+								&nbsp; Ruby
 							</a>
 							&nbsp;and&nbsp;
 							<a
@@ -188,7 +188,7 @@ const Resume = props => {
 										alt='Microsoft Visual Studio Code Site'
 									>
 										<VSCODE />
-										Visual Studio Code
+										VS Code
 									</a>
 								</li>
 								<li>
@@ -235,9 +235,9 @@ const Resume = props => {
 									width='560'
 									height='340'
 									src='https://www.youtube.com/embed/ehSm2eVTNQM'
-									frameborder='0'
+									frameBorder='0'
 									allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-									allowfullscreen
+									allowFullScreen
 								></iframe>
 							</li>
 							<li>
@@ -255,9 +255,9 @@ const Resume = props => {
 									width='560'
 									height='340'
 									src='https://www.youtube.com/embed/DJi7i1Blf04'
-									frameborder='0'
+									frameBorder='0'
 									allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-									allowfullscreen
+									allowFullScreen
 								></iframe>
 							</li>
 							<li>
@@ -274,7 +274,7 @@ const Resume = props => {
 									src='https://anchor.fm/itkit/embed/episodes/IT-Kit-1--Ryan-Seit--Casper-e3v58h/a-aegm9a'
 									height='140px'
 									width='560px'
-									frameborder='0'
+									frameBorder='0'
 									scrolling='no'
 								></iframe>
 							</li>

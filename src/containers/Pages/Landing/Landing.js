@@ -26,21 +26,25 @@ const Landing = props => {
 				<NavLink to='/resume'>
 					<div className={classes.crashL}>
 						<CRASHL />
+						<h4>RESUME</h4>
 					</div>
 				</NavLink>
 				<NavLink to='/music'>
 					<div className={classes.crashR}>
 						<CRASHR />
+						<h4>MUSIC</h4>
 					</div>
 				</NavLink>
 				<NavLink to='/about'>
 					<div className={classes.hihat}>
 						<HIHAT />
+						<h4>ABOUT</h4>
 					</div>
 				</NavLink>
 				<NavLink to='/technology'>
 					<div className={classes.ride}>
 						<RIDE />
+						<h4>TECHNOLOGY</h4>
 					</div>
 				</NavLink>
 				<div className={classes.snare}>

@@ -1,0 +1,96 @@
+.Wrapper {
+  padding: 4% 10%;
+}
+
+.About {
+  display: grid;
+  grid-template-rows: 2fr 2fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    " s1 hs s2 "
+    " . hs . "
+    " s3 hs s4 "
+}
+
+.Section1 {
+  /* border: 1px solid red; */
+  grid-area: s1;
+  text-align: left;
+}
+
+.Section2 {
+  /* border: 1px solid red; */
+  grid-area: s2;
+  text-align: right;
+}
+
+.Section3 {
+  /* border: 1px solid red; */
+  grid-area: s3;
+  text-align: left;
+}
+
+.Section4 {
+  /* border: 1px solid red; */
+  grid-area: s4;
+  text-align: right;
+}
+
+.Headshot {
+  /* border: 1px solid red; */
+  grid-area: hs;
+  margin: auto;
+}
+
+.Headshot>img {
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .Wrapper {
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+  }
+
+  .About {
+    /* border: 1px solid red; */
+    width: 100vw;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      " hs "
+      " s1 "
+      " s2 "
+      " s3 "
+      " s4 ";
+  }
+
+  .About h3 {
+    /* border: 1px solid red; */
+    margin: 0 0 5% 0;
+  }
+
+  .About p {
+    /* border: 1px solid red; */
+    margin: 0;
+  }
+
+  .Headshot {
+    /* border: 1px solid red; */
+    width: 90vw;
+    height: 30vh;
+    text-align: center;
+  }
+
+  .Section1,
+  .Section2,
+  .Section3,
+  .Section4 {
+    /* border: 1px solid red; */
+    text-align: left;
+    margin: 0 8% 15% 8%;
+  }
+
+
+}

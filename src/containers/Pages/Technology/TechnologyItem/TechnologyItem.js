@@ -13,6 +13,7 @@ import RAILS from "../../../UI/Icons/RAILS";
 import GITHUB from "../../../UI/Icons/GITHUB";
 import CHROME from "../../../UI/Icons/CHROME";
 import MEDIUM from "../../../UI/Icons/MEDIUM";
+import FIREBASE from "../../../UI/Icons/FIREBASE";
 // import Spinner from "../../../UI/Icons/Spinner";
 
 // Renders an individual project, parent component Technology
@@ -40,6 +41,11 @@ const TechnologyItem = props => {
 						{props.project.tech.redux ? (
 							<li>
 								<REDUX />
+							</li>
+						) : null}
+						{props.project.tech.firebase ? (
+							<li>
+								<FIREBASE />
 							</li>
 						) : null}
 						{props.project.tech.ruby ? (

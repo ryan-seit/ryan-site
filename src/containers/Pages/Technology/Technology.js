@@ -22,6 +22,7 @@ const projects = {
 			pg: true,
 			html: true,
 			css: true,
+			firebase: false,
 		},
 		desc:
 			"Designed as an homage to late 80's/early 90's drum machines, Drumblr is a digital drum machine users can play in the browser, with customizable tempo, rhythms, and presets.",
@@ -44,6 +45,7 @@ const projects = {
 			pg: false,
 			html: true,
 			css: true,
+			firebase: true,
 		},
 		desc:
 			"Responsive POS application allowing customers to customize ingredients and place orders",
@@ -66,6 +68,7 @@ const projects = {
 			pg: true,
 			html: true,
 			css: true,
+			firebase: false,
 		},
 		desc:
 			"E-Commerce clothing application allowing users to purchase clothing through an integrated Stripe API",
@@ -82,7 +85,6 @@ const settings = {
 };
 
 const Technology = props => {
-	console.log(projects.p1.img);
 	return (
 		<div className={classes.Wrapper}>
 			<Slider {...settings}>
