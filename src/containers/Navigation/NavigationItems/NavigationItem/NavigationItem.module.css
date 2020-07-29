@@ -1,7 +1,7 @@
 .NavigationItem a {
   /* border: 1px solid red; */
   transition: 0.3s ease;
-  border-bottom: 5px solid #ffffff;
+  border-bottom: 4px solid #ffffff;
   padding: 16px 0;
   margin: 0 50px;
   letter-spacing: 0.05em;

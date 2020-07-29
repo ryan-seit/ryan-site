@@ -1,7 +1,7 @@
 import React from "react";
 
 import classes from "./About.module.css";
-import headshot from "../../assets/Images/RyanSeit.png";
+import headshot from "../../../assets/Images/RyanSeit.png";
 
 const About = props => {
 	return (

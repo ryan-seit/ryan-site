@@ -4,8 +4,8 @@ import Layout from "./containers/Layout/Layout";
 import Landing from "./containers/Pages/Landing/Landing";
 import Technology from "./containers/Pages/Technology/Technology";
 import Music from "./containers/Pages/Music/Music";
-import About from "./containers/About/About";
-import Resume from "./containers/Resume/Resume";
+import About from "./containers/Pages/About/About";
+import Resume from "./containers/Pages/Resume/Resume";
 
 const App = () => {
 	return (

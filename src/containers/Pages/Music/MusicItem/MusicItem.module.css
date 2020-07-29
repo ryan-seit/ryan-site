@@ -11,7 +11,6 @@
 
 .ProjectSectionImg {
   grid-area: prjsctnimg;
-  /* margin: auto; */
 }
 
 .ProjectSectionImg img {
@@ -24,12 +23,18 @@
   grid-area: prjsctntitle;
 }
 
-.ProjectSectionTitle h3 {
-  /* border: 1px solid green; */
-}
-
-
 .ProjectSectionDetail {
   /* border: 1px solid green; */
   grid-area: prjsctndtl;
+}
+
+@media (max-width: 1000px) {
+  .ProjectSectionTitle {
+    height: 30px;
+  }
+
+  .ProjectSectionDetail {
+    /* border: 1px solid green; */
+    padding: 0;
+  }
 }

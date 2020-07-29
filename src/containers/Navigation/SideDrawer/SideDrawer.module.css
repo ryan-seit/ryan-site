@@ -8,8 +8,6 @@
   z-index: 200;
   background-color: #5E88A4;
   box-sizing: border-box;
-  opacity: .7;
-  backdrop-filter: blur(50px);
   transition: transform 0.3s ease-out;
 }
 

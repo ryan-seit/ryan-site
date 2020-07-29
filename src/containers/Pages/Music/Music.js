@@ -1,5 +1,4 @@
 import React from "react";
-import RyanDrums from "../../../assets/Images/RyanSeitDrums.png";
 import AlbumArt from "../../../assets/Images/MusicAcheFadeAway.jpg";
 import RyanLive from "../../../assets/Images/RyanAcheLive1.png";
 import MixingBoard from "../../../assets/Images/MixingBoard.png";
@@ -11,15 +10,15 @@ const Music = props => {
 		<div className={classes.Wrapper}>
 			<div className={classes.Music}>
 				<div className={classes.Hero}>
-					<div className={classes.HeroImg}>
+					{/* <div className={classes.HeroImg}>
 						<img
 							className={classes.Loading}
 							src={RyanDrums}
 							alt='Ryan Seit Drums'
 						/>
-					</div>
+					</div> */}
 					<div className={classes.HeroDetail}>
-						<h2>Music</h2>
+						<h1>Music</h1>
 						<p>
 							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
 							aut fugit, sed quia consequuntur magni dolores eos qui ratione

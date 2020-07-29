@@ -1,58 +1,39 @@
-.Wrapper {
-  display: grid;
-  padding: 4% 10%;
-}
-
 .Music {
   margin: auto;
 }
 
 .Hero {
   /* border: 1px solid red; */
-  width: 100%;
-  margin-bottom: 7%;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-areas:
-    "heroimg herodtl";
-}
-
-.HeroImg {
-  grid-area: heroimg;
-  /* border-radius: 50%; */
-}
-
-.HeroImg img {
-  /* border-radius: 50%; */
+  display: block;
+  position: relative;
+  width: 100vw;
+  background-image: url('../../../assets//Images/RyanDrums.jpg');
+  background-size: cover;
+  min-height: 95vh;
 }
 
 .HeroDetail {
-  /* border: 1px solid blue; */
-  grid-area: herodtl;
-  display: grid;
-  margin-left: 8%;
-  height: 100%;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas:
-    "herotitle"
-    "herodtlp";
-}
-
-.HeroDetail h2 {
-  /* border: 1px solid green; */
-  grid-area: herotitle;
-  display: flex;
-  align-items: flex-end;
+  /* border: 2px solid blue; */
+  color: white;
+  position: absolute;
+  width: 600px;
+  bottom: 50px;
+  left: 50px;
+  padding: 2%;
 }
 
 .HeroDetail p {
-  /* border: 1px solid orange; */
-  grid-area: herodtlp;
-  margin: 0;
+  /* border: 1px solid green; */
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  line-height: 25px;
+  font-weight: 300;
 }
 
 .MusicProjects {
   /* border: 1px solid red; */
+  padding: 3% 10%;
   display: grid;
   grid-template-columns: repeat (3, 1fr);
   grid-template-rows: 1fr 3fr;
@@ -64,4 +45,47 @@
 .MusicProjects h1 {
   grid-area: mscprjtitle;
   margin: 0 0 5% 0;
+}
+
+@media (max-width: 1000px) {
+  .Music {
+    /* border: 3px solid red; */
+    width: 100%;
+  }
+
+  .Hero {
+    /* border: 1px solid red; */
+    width: 100%;
+    min-height: 95vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+  }
+
+  .HeroDetail {
+    /* border: 1px solid red; */
+    height: 250px;
+    width: 300px;
+    bottom: 7px;
+    left: 20px;
+    padding: 0;
+  }
+
+  .HeroDetail p {
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+
+  .MusicProjects {
+    /* border: 3px solid red; */
+    display: block;
+    margin: 8% 0 3% 0;
+    padding: 0;
+  }
+
+  .MusicProjects h1 {
+    display: none;
+  }
 }
