@@ -1,27 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.16bae3f0.chunk.css",
-    "main.js": "/static/js/main.d79ad8f4.chunk.js",
-    "main.js.map": "/static/js/main.d79ad8f4.chunk.js.map",
+    "main.css": "/static/css/main.b8c8c573.chunk.css",
+    "main.js": "/static/js/main.9d5ad078.chunk.js",
+    "main.js.map": "/static/js/main.9d5ad078.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3245e991.js",
     "runtime-main.js.map": "/static/js/runtime-main.3245e991.js.map",
-    "static/js/2.083a55a9.chunk.js": "/static/js/2.083a55a9.chunk.js",
-    "static/js/2.083a55a9.chunk.js.map": "/static/js/2.083a55a9.chunk.js.map",
+    "static/css/2.c3f0a6c1.chunk.css": "/static/css/2.c3f0a6c1.chunk.css",
+    "static/js/2.8a7acdb4.chunk.js": "/static/js/2.8a7acdb4.chunk.js",
+    "static/js/2.8a7acdb4.chunk.js.map": "/static/js/2.8a7acdb4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2083020d05ec43ba52fbc4527777bc51.js": "/precache-manifest.2083020d05ec43ba52fbc4527777bc51.js",
+    "precache-manifest.5afd12c4a4943240b094fd2005466a1e.js": "/precache-manifest.5afd12c4a4943240b094fd2005466a1e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.16bae3f0.chunk.css.map": "/static/css/main.16bae3f0.chunk.css.map",
-    "static/js/2.083a55a9.chunk.js.LICENSE.txt": "/static/js/2.083a55a9.chunk.js.LICENSE.txt",
+    "static/css/2.c3f0a6c1.chunk.css.map": "/static/css/2.c3f0a6c1.chunk.css.map",
+    "static/css/main.b8c8c573.chunk.css.map": "/static/css/main.b8c8c573.chunk.css.map",
+    "static/js/2.8a7acdb4.chunk.js.LICENSE.txt": "/static/js/2.8a7acdb4.chunk.js.LICENSE.txt",
     "static/media/MixingBoard.png": "/static/media/MixingBoard.9eee8dea.png",
     "static/media/MusicAcheFadeAway.jpg": "/static/media/MusicAcheFadeAway.70513593.jpg",
     "static/media/RyanAcheLive1.png": "/static/media/RyanAcheLive1.ab12ead0.png",
     "static/media/Music.module.css": "/static/media/RyanDrums.81ef6701.jpg",
-    "static/media/RyanSeit.png": "/static/media/RyanSeit.067373de.png"
+    "static/media/RyanSeit.png": "/static/media/RyanSeit.067373de.png",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.3245e991.js",
-    "static/js/2.083a55a9.chunk.js",
-    "static/css/main.16bae3f0.chunk.css",
-    "static/js/main.d79ad8f4.chunk.js"
+    "static/css/2.c3f0a6c1.chunk.css",
+    "static/js/2.8a7acdb4.chunk.js",
+    "static/css/main.b8c8c573.chunk.css",
+    "static/js/main.9d5ad078.chunk.js"
   ]
 }
