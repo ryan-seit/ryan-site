@@ -124,16 +124,12 @@ li {
 @media (max-width: 1000px) {
 	.Technology {
 		/* border: 1px solid red; */
-		height: 100vh;
-		max-height: 100vh;
+		height: 92vh;
+		/* max-height: 100vh; */
 		max-height: -webkit-fill-available;
 		width: 95vw;
 		margin: auto;
-		margin-top: 5%;
-	}
-
-	.PortfolioInfo {
-		/* border: 1px solid red; */
+		margin-top: 0;
 	}
 
 	.PortfolioInfo>h3 {
@@ -161,8 +157,9 @@ li {
 
 	.Details {
 		/* border: 1px solid red; */
-		padding: 5%;
-		margin-top: 10%;
+		width: 74vw;
+		padding: 4% 6% 6% 6%;
+		margin-top: 6%;
 		background-color: white;
 		border-radius: 20px;
 	}
@@ -174,13 +171,35 @@ li {
 
 	.Details p {
 		margin: 0;
+		line-height: 24px;
+		text-align: left;
+	}
+
+	.Details__header {
+		/* border: 1px solid red; */
+		display: inline-flex;
+		margin: 0 0 5% 0;
+	}
+
+	.Details__header ul {
+		/* border: 1px solid red; */
+		margin: 1% 0 3% 5%;
+	}
+
+	.Details__header ul li {
+		/* border: 1px solid red; */
+		margin: 0;
+		padding: 0;
+		height: 30px;
+		width: 30px;
+		/* margin: 0 0 3% 3%; */
 	}
 
 	.Details__header svg {
 		margin: 0;
 		padding: 0;
-		height: 30px;
-		width: 30px;
+		height: 100%;
+		width: 100%;
 		-webkit-transition: none;
 		transition: none;
 	}

@@ -1,5 +1,6 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
 import classes from "./SideDrawer.module.css";
 import NavigationItems from "../NavigationItems/NavigationItems";
 import Backdrop from "../../UI/Backdrop/Backdrop";
@@ -19,11 +20,13 @@ const SideDrawer = props => {
 			<div className={attachedClasses.join(" ")}>
 				<div className={classes.SideDrawer__Top}>
 					<div className={classes.Logo}>
-						<LOGOBLOCK />
+						<NavLink to='/'>
+							<LOGOBLOCK />
+						</NavLink>
 					</div>
 				</div>
 				<nav>
-					<NavigationItems />
+					<NavigationItems clicked={props.closed} />
 				</nav>
 			</div>
 		</>

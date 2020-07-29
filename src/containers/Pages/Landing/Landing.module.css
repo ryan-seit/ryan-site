@@ -150,12 +150,36 @@
     /* position: absolute; */
   }
 
+  .hihat,
+  .crashL,
+  .crashR,
+  .tom,
+  .snare,
+  .ride,
+  .floorTom {
+    display: flex;
+  }
+
+  .crashL:hover,
+  .crashR:hover,
+  .hihat:hover,
+  .ride:hover,
+  .tom:hover,
+  .snare:hover,
+  .floorTom:hover {
+    -webkit-transform: none;
+    transform: none;
+  }
+
   .Landing a h4 {
-    display: inline-block;
+    /* border: 1px solid red; */
+    display: block;
     color: white;
     font-weight: 900;
+    font-size: 18px;
     letter-spacing: 3px;
-    /* text-align: center; */
+    margin: auto;
+    padding-bottom: 4%;
   }
 
   .tom {

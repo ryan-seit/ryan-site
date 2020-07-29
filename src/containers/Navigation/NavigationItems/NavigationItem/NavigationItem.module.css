@@ -21,7 +21,8 @@
 @media (max-width: 999px) {
   .NavigationItem a {
     /* border: 1px solid red; */
-    font-size: 24px;
+    letter-spacing: 0.1em;
+    font-size: 20px;
     display: inline-block;
     margin: 20px 0;
     width: 180px;
@@ -30,7 +31,7 @@
     border-bottom: none;
   }
 
-  .NavigationItema:active,
+  .NavigationItem a:hover,
   .NavigationItem a.selected {
     margin: 20px 0;
     width: 180px;
