@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.042c85be.chunk.css",
+    "main.css": "/static/css/main.69a7a5c8.chunk.css",
     "main.js": "/static/js/main.7d61dfeb.chunk.js",
     "main.js.map": "/static/js/main.7d61dfeb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3245e991.js",
@@ -9,10 +9,10 @@
     "static/js/2.484df26c.chunk.js": "/static/js/2.484df26c.chunk.js",
     "static/js/2.484df26c.chunk.js.map": "/static/js/2.484df26c.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.63399d335bb78784d753cf2f77632f3a.js": "/precache-manifest.63399d335bb78784d753cf2f77632f3a.js",
+    "precache-manifest.d9d1fff7a75e7c80bc6ef17850ed4f63.js": "/precache-manifest.d9d1fff7a75e7c80bc6ef17850ed4f63.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c3f0a6c1.chunk.css.map": "/static/css/2.c3f0a6c1.chunk.css.map",
-    "static/css/main.042c85be.chunk.css.map": "/static/css/main.042c85be.chunk.css.map",
+    "static/css/main.69a7a5c8.chunk.css.map": "/static/css/main.69a7a5c8.chunk.css.map",
     "static/js/2.484df26c.chunk.js.LICENSE.txt": "/static/js/2.484df26c.chunk.js.LICENSE.txt",
     "static/media/MixingBoard.png": "/static/media/MixingBoard.9eee8dea.png",
     "static/media/MusicAcheFadeAway.jpg": "/static/media/MusicAcheFadeAway.70513593.jpg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.3245e991.js",
     "static/css/2.c3f0a6c1.chunk.css",
     "static/js/2.484df26c.chunk.js",
-    "static/css/main.042c85be.chunk.css",
+    "static/css/main.69a7a5c8.chunk.css",
     "static/js/main.7d61dfeb.chunk.js"
   ]
 }
