@@ -49,14 +49,11 @@ h3 {
 	letter-spacing: 0.125em;
 }
 
-h4 {
-}
+h4 {}
 
-h5 {
-}
+h5 {}
 
-h6 {
-}
+h6 {}
 
 ul {
 	list-style-type: none;
@@ -70,23 +67,24 @@ code {
 
 .slick-slide {
 	opacity: 0.3;
+	transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-webkit-transition: opacity .3s ease-in-out;
 	outline: none;
 }
 
 .slick-center {
+	/* border: 1px solid red; */
 	opacity: 1;
+	transition: opacity .4s ease-in-out;
+	-moz-transition: opacity .4s ease-in-out;
+	-webkit-transition: opacity .4s ease-in-out;
 }
 
-.slick-slider > button {
+.slick-slider>button {
 	/* border: 1px solid red; */
 	position: absolute;
 	top: 100%;
-	/* color: black; */
-}
-
-.slick-arrow {
-	/* border: 1px solid red; */
-	/* color: black; */
 }
 
 .slick-next {
@@ -109,4 +107,10 @@ code {
 .slick-next:before:hover button,
 .slick-prev:before:hover button {
 	color: #4b6b80;
+}
+
+@media (max-width: 1000px) {
+	.slick-current {
+		opacity: 1;
+	}
 }

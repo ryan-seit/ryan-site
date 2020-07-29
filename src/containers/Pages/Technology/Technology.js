@@ -2,6 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import classes from "./Technology.module.css";
 import TechnologyItem from "./TechnologyItem/TechnologyItem";
+import "../../../../node_modules/slick-carousel/slick/slick.css";
+import "../../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 const projects = {
 	p1: {
@@ -81,7 +83,27 @@ const settings = {
 	centerPadding: "60",
 	slidesToShow: 2.2,
 	speed: 500,
-	arrows: true,
+	arrows: false,
+	dots: true,
+	slidesToScroll: 1,
+	responsive: [
+		{
+			breakpoint: 1000,
+			settings: {
+				centerMode: false,
+				centerPadding: "60",
+				slidesToShow: 1,
+				speed: 500,
+				arrows: false,
+				slidesToScroll: 1,
+				infinite: true,
+				dots: false,
+			},
+		},
+		// You can unslick at a given breakpoint now by adding:
+		// settings: "unslick"
+		// instead of a settings object
+	],
 };
 
 const Technology = props => {

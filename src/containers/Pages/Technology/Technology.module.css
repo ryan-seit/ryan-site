@@ -4,6 +4,16 @@
 	padding: 3% 0 2.5% 0;
 }
 
-.Wrapper > div {
+.Wrapper>div {
 	outline: none;
+}
+
+@media (max-width: 1000px) {
+	.Wrapper {
+		/* position: relative; */
+		min-height: 100vh;
+		min-height: -webkit-fill-available;
+		padding: 0;
+	}
+
 }

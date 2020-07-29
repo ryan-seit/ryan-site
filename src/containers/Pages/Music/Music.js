@@ -10,13 +10,6 @@ const Music = props => {
 		<div className={classes.Wrapper}>
 			<div className={classes.Music}>
 				<div className={classes.Hero}>
-					{/* <div className={classes.HeroImg}>
-						<img
-							className={classes.Loading}
-							src={RyanDrums}
-							alt='Ryan Seit Drums'
-						/>
-					</div> */}
 					<div className={classes.HeroDetail}>
 						<h1>Music</h1>
 						<p>
