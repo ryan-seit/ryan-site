@@ -1,15 +1,15 @@
 .Wrapper {
-  padding: 4% 10%;
+  padding: 2% 10%;
 }
 
 .About {
   display: grid;
-  grid-template-rows: 2fr 2fr 2fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: .5fr 1fr .5fr;
+  grid-template-columns: 1fr .5fr 1fr;
   grid-template-areas:
-    " s1 hs s2 "
+    " s1 . s2 "
     " . hs . "
-    " s3 hs s4 "
+    " s3 . s4 "
 }
 
 .Section1 {
@@ -39,36 +39,32 @@
 .Headshot {
   /* border: 1px solid red; */
   grid-area: hs;
-  margin: auto;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  /* margin: auto; */
+  position: relative;
 }
 
 .Headshot img {
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  width: 100%;
   height: 100%;
 }
 
 @media (max-width: 1000px) {
   .Wrapper {
     /* border: 1px solid red; */
+    width: 90vw;
     padding: 0;
-    margin: 0;
+    padding-bottom: 10%;
+    margin: auto;
   }
 
   .About {
     /* border: 1px solid red; */
-    width: 100vw;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      " hs "
-      " s1 "
-      " s2 "
-      " s3 "
-      " s4 ";
-  }
-
-  .About h3 {
-    /* border: 1px solid red; */
-    margin: 0 0 5% 0;
+    display: block;
   }
 
   .About p {
@@ -78,9 +74,12 @@
 
   .Headshot {
     /* border: 1px solid red; */
-    width: 90vw;
-    height: 30vh;
-    text-align: center;
+    grid-area: hs;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
   }
 
   .Section1,
@@ -89,8 +88,10 @@
   .Section4 {
     /* border: 1px solid red; */
     text-align: left;
-    margin: 0 8% 15% 8%;
+    /* margin: auto; */
+    /* margin: 0; */
+    /* padding: 0; */
+    margin: 5% 3% 0 3%;
+    padding: 0;
   }
-
-
 }

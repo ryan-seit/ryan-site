@@ -32,6 +32,7 @@ const Music = props => {
 					<h1>Music-Related Projects</h1>
 					<MusicItem
 						img={RyanLive}
+						lqip=''
 						imgAlt='Performance'
 						title='Performance'
 						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -40,6 +41,7 @@ const Music = props => {
 					/>
 					<MusicItem
 						img={MixingBoard}
+						lqip=''
 						imgAlt='Performance'
 						title='Recording + Editing'
 						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -48,6 +50,7 @@ const Music = props => {
 					/>
 					<MusicItem
 						img={AlbumArt}
+						lqip=''
 						imgAlt='Performance'
 						title='Design'
 						detail='Amet, consectetur adipiscing elit, sed do eiusmod tempor
