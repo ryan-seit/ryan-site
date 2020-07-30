@@ -89,7 +89,7 @@ const settings = {
 	centerPadding: "60",
 	slidesToShow: 2.2,
 	speed: 500,
-	arrows: true,
+	arrows: false,
 	autoplay: true,
 	pauseOnFocus: true,
 	focusOnSelect: true,
