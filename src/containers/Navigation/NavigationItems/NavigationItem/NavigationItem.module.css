@@ -35,10 +35,10 @@
   .NavigationItem a.selected {
     margin: 20px 0;
     width: 180px;
-    padding: 20px 13px;
+    padding: 20px 14px;
     border-bottom: none;
     color: white;
     background-color: #40a4c8;
-    border-right: 15px solid white;
+    border-right: 12px solid white;
   }
 }

@@ -18,12 +18,10 @@
 
 .PortfolioImage .PortfolioInfo {
 	/* border: 1px solid red; */
-	background: linear-gradient(
-		0deg,
-		rgba(2, 0, 36, 0) 40%,
-		rgba(9, 9, 121, 0) 40%,
-		rgb(70, 90, 133) 85%
-	);
+	background: linear-gradient(0deg,
+			rgba(2, 0, 36, 0) 40%,
+			rgba(9, 9, 121, 0) 40%,
+			rgb(70, 90, 133) 85%);
 	width: 100%;
 	height: 100%;
 	border-radius: 50%;
@@ -31,28 +29,28 @@
 	position: absolute;
 }
 
-.PortfolioInfo ul > li > div > svg {
+.PortfolioInfo ul>li>div>svg {
 	/* border: 1px solid red; */
 	height: 45px;
 	width: 45px;
 }
 
-.PortfolioInfo svg > circle {
+.PortfolioInfo svg>circle {
 	fill: none;
 }
 
-.PortfolioInfo svg > path {
+.PortfolioInfo svg>path {
 	fill: white;
 }
 
-.PortfolioInfo > h3 {
+.PortfolioInfo>h3 {
 	/* border: 1px solid red; */
 	color: white;
 	text-align: center;
 	z-index: 3;
 }
 
-.PortfolioInfo > ul {
+.PortfolioInfo>ul {
 	/* border: 1px solid red; */
 	justify-content: center;
 	display: flex;
@@ -61,7 +59,7 @@
 	padding: 0;
 }
 
-.PortfolioInfo > ul > li {
+.PortfolioInfo>ul>li {
 	/* border: 1px solid red; */
 	padding: 0.2%;
 }
@@ -84,8 +82,8 @@
 	display: flex;
 }
 
-.PortfolioInfo > ul,
-.Details__header > ul {
+.PortfolioInfo>ul,
+.Details__header>ul {
 	/* border: 1px solid red; */
 	align-items: center;
 	grid-area: links;
@@ -99,7 +97,7 @@ li {
 	padding: 0 5px;
 }
 
-.Details__header svg > circle {
+.Details__header svg>circle {
 	fill: #4b6b80;
 }
 
@@ -127,15 +125,13 @@ li {
 @media (max-width: 1000px) {
 	.Technology {
 		/* border: 1px solid red; */
-		height: 92vh;
-		/* max-height: 100vh; */
-		max-height: -webkit-fill-available;
+		height: 100%;
 		width: 95vw;
+		margin: 0;
 		margin: auto;
-		margin-top: 0;
 	}
 
-	.PortfolioInfo > h3 {
+	.PortfolioInfo>h3 {
 		/* border: 1px solid red; */
 		font-size: 20px;
 		padding: 0;
@@ -147,12 +143,12 @@ li {
 		margin: 3%;
 	}
 
-	.PortfolioInfo > ul > li {
+	.PortfolioInfo>ul>li {
 		/* border: 1px solid red; */
 		padding: 0 0.1% 0 0.1%;
 	}
 
-	.PortfolioInfo ul > li > div > svg {
+	.PortfolioInfo ul>li>div>svg {
 		/* border: 1px solid red; */
 		height: 35px;
 		width: 35px;
@@ -195,7 +191,6 @@ li {
 		padding: 0;
 		height: 30px;
 		width: 30px;
-		/* margin: 0 0 3% 3%; */
 	}
 
 	.Details__header svg {

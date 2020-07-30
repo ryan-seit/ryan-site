@@ -101,6 +101,7 @@ const settings = {
 			breakpoint: 1000,
 			settings: {
 				centerMode: false,
+				autoplay: false,
 				centerPadding: "60",
 				slidesToShow: 1,
 				speed: 500,
