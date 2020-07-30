@@ -2,6 +2,7 @@ import React from "react";
 
 import classes from "./TechnologyItem.module.css";
 
+import LazyImgLoader from "../../../hoc/LazyImgLoader/LazyImgLoader";
 import CSS from "../../../UI/Icons/CSS";
 import REDUX from "../../../UI/Icons/REDUX";
 import REACT from "../../../UI/Icons/REACT";
@@ -75,9 +76,10 @@ const TechnologyItem = props => {
 						) : null}
 					</ul>
 				</div>
-
-				<img
-					className={classes.Image}
+				<LazyImgLoader
+					className='lazyimg'
+					aspectRatio={16 / 16}
+					lqip={props.project.lqip}
 					src={props.project.img}
 					alt={props.project.title}
 				/>

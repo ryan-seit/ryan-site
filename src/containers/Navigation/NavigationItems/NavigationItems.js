@@ -4,8 +4,6 @@ import { NavLink } from "react-router-dom";
 import classes from "./NavigationItems.module.css";
 import NavigationItem from "./NavigationItem/NavigationItem";
 import LOGO from "../../UI/Logo/LOGO";
-// import LINKEDINplain from "../../UI/Icons/LINKEDINplain";
-// import GITHUBplain from "../../UI/Icons/GITHUBplain";
 import LINKEDIN from "../../UI/Icons/LINKEDIN";
 import GITHUB from "../../UI/Icons/GITHUB";
 import EMAIL from "../../UI/Icons/EMAIL";

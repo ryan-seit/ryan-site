@@ -7,7 +7,7 @@
   display: block;
   position: relative;
   width: 100vw;
-  background-image: url('../../../assets//Images/RyanDrums.jpg');
+  /* background-image: url('../../../assets//Images/RyanDrums.jpg'); */
   background-size: cover;
   min-height: 95vh;
 }
