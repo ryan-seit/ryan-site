@@ -16,7 +16,7 @@
   /* border: 2px solid blue; */
   color: white;
   position: absolute;
-  width: 600px;
+  width: 90%;
   bottom: 50px;
   left: 50px;
   padding: 2%;
@@ -36,15 +36,16 @@
   padding: 3% 10%;
   display: grid;
   grid-template-columns: repeat (3, 1fr);
-  grid-template-rows: 1fr 3fr;
+  grid-template-rows: .5fr 3fr;
   grid-template-areas:
     "mscprjtitle mscprjtitle mscprjtitle"
     "prjsctn1 prjsctn2 prjsctn3";
 }
 
 .MusicProjects h1 {
+  /* border: 1px solid red; */
   grid-area: mscprjtitle;
-  margin: 0 0 5% 0;
+  margin: 0;
 }
 
 @media (max-width: 1000px) {
@@ -64,17 +65,27 @@
 
   .HeroDetail {
     /* border: 1px solid red; */
-    height: 250px;
-    width: 300px;
+    height: 43vh;
+    width: 95vw;
     bottom: 30px;
-    left: 20px;
+    left: 10px;
     padding: 0;
+  }
+
+  .HeroDetail h1 {
+    /* border: 1px solid red; */
+    height: 3vh;
+    font-size: 24px;
   }
 
   .HeroDetail p {
     letter-spacing: 2px;
+    font-weight: 500;
     font-size: 12px;
     line-height: 16px;
+    text-transform: none;
+    -webkit-text-stroke: .3px black;
+    /* text-align: justify; */
   }
 
 

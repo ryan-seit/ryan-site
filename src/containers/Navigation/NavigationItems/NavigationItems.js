@@ -18,9 +18,9 @@ const NavigationItems = props => {
 					<LOGO />
 				</NavLink>
 			</div>
-			<NavigationItem link='/about' exact clicked={props.clicked}>
-				ABOUT
-			</NavigationItem>
+			{/* <NavigationItem link='/about' exact clicked={props.clicked}> */}
+			{/* ABOUT */}
+			{/* </NavigationItem> */}
 			<NavigationItem link='/technology' exact clicked={props.clicked}>
 				TECHNOLOGY
 			</NavigationItem>

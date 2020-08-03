@@ -2,7 +2,7 @@
   /* border: 1px solid red; */
   display: grid;
   padding: 0 8%;
-  grid-template-rows: 1.75fr .25fr .50fr;
+  grid-template-rows: .25fr .15fr 1fr;
   grid-template-areas:
     "prjsctnimg"
     "prjsctntitle"
@@ -19,7 +19,6 @@
 .ProjectSectionImg img {
   border-radius: 50%;
   width: 100%;
-  /* height: 100%; */
 }
 
 .ProjectSectionTitle {
